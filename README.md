@@ -1,7 +1,7 @@
-# 🚀 Muhammad Mukhtar | Full-Stack Software Engineer
+#  Muhammad Mukhtar | Software Engineer | Cyber Diciple
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;MongoDB+%7C+Express+%7C+React+%7C+Node.js;Always+Learning+New+Things" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=700&lines=Obsessive+Over+Priorities.;I'll+Outperform+You.;I'm+more+inside." alt="Typing SVG" />
 </div>
 
 <h3 align="center">A passionate Full-Stack Developer from Pakistan 🇵🇰</h3>
@@ -12,14 +12,14 @@
 </p>
 
 
-## 🙋‍♂️ About Me
+## About Me
 
-- 🔭 I'm currently working on **Full Stack Projects**
-- 🌱 I'm currently learning **Advanced React, Node.js, and MongoDB**
-- 👯 I'm looking to collaborate on **Full-Stack Web Applications**
-- 💬 Ask me about **React, Node.js, Express, MongoDB, and JavaScript**
-- 📫 How to reach me: **mukhtarshaikh.official@gmail.com**
-- ⚡ Fun fact: **I love building scalable web applications with the MERN stack!**
+-  I'm currently working on **Full Stack Projects**
+-  I'm currently learning **Advanced React, Node.js, and MongoDB**
+-  I'm looking to collaborate on **Full-Stack Web Applications**
+-  Ask me about **React, Node.js, Express, MongoDB, and JavaScript**
+-  How to reach me: **mukhtarshaikh.official@gmail.com**
+-  Fun fact: **I love building scalable web applications with the MERN stack!**
 
 ---
 
