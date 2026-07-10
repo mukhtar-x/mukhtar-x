@@ -1,33 +1,33 @@
-#  Muhammad Mukhtar | Software Engineer | Cyber Diciple
+<h1 align=center>- Muhammad Mukhtar Shaikh -</h1>
+<h3 align="center">OUTPERFORMER & OUTTHINKER</h3>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=700&lines=Obsessive+Over+Priorities.;I'll+Outperform+You.;I'm+more+inside." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=700&lines=Obsessive+Over+Priorities.;I+build+anonymously.;I'll+Outperform+You." alt="Typing SVG" />
 </div>
 
-<h3 align="center">A passionate Full-Stack Developer from Pakistan 🇵🇰</h3>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Mukhtar-816&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
   <img src="https://img.shields.io/github/followers/Mukhtar-816?label=Followers&style=social" alt="followers" />
-</p>
+</p> -->
 
 
 ## About Me
 
--  I'm currently working on **Full Stack Projects**
--  I'm currently learning **Advanced React, Node.js, and MongoDB**
--  I'm looking to collaborate on **Full-Stack Web Applications**
--  Ask me about **React, Node.js, Express, MongoDB, and JavaScript**
+-  I'm Building **Anonymous Systems and Their Design Patterns**
+-  I'm inspecting over the **Patterns of a Cyber Criminal and Thought Processes**
+-  I'm looking to collaborate on **OutPerformers**
+-  Ask me about **How to Build Systems that Works**
 -  How to reach me: **mukhtarshaikh.official@gmail.com**
--  Fun fact: **I love building scalable web applications with the MERN stack!**
+-  Real fact: **Illegality offers control**
 
 ---
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> **Tech Stack**
 
-### 💻 Programming Languages
+### Programming Languages
 
-#### 🌐 High-Level & Web
+#### High-Level & Web
 <p align="left">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
@@ -36,14 +36,14 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
 </p>
 
-#### ⚙️ Systems & Low-Level
+####  Systems & Low-Level
 <p align="left">
   <img src="https://img.shields.io/badge/Assembly_x86-00599C?style=for-the-badge&logo=assemblyscript&logoColor=white" alt="Assembly Irvine"/>
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
 </p>
 
-🚀 **MERN Stack & Libraries**
+**MERN Stack & Libraries**
 <p align="left">
 <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
 <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/>
@@ -54,7 +54,7 @@
 <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" alt="Mongoose"/>
 </p>
 
-🎨 **Frontend & Styling**
+ **Frontend & Styling**
 <p align="left">
 <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/>
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
@@ -62,7 +62,7 @@
 <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass"/>
 </p>
 
-🗄️ **Databases & Backend Services**
+ **Databases & Backend Services**
 <p align="left">
 <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
 <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
@@ -71,7 +71,7 @@
 <img src="https://img.shields.io/badge/Cloudinary-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Cloudinary"/>
 </p>
 
-🛠️ **Tools & Technologies**
+ **Tools & Technologies**
 <p align="left">
 <img src="https://img.shields.io/badge/Railway-131415?style=for-the-badge&logo=railway&logoColor=white" alt="Railway"/>
 <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VS Code"/>
@@ -82,7 +82,7 @@
 <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify"/>
 </p>
 
-## 📊 GitHub Ecosystem
+##  GitHub Ecosystem
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Mukhtar-816&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&title_color=2196F3&icon_color=2196F3&hide_border=true" />
