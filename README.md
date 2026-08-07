@@ -85,13 +85,13 @@
 ##  GitHub Ecosystem
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Mukhtar-816&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&title_color=2196F3&icon_color=2196F3&hide_border=true" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Mukhtar-816&theme=tokyonight&hide_border=true&stroke=2196F3&fire=2196F3&ring=2196F3" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Mukhtar-x&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&title_color=2196F3&icon_color=2196F3&hide_border=true" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Mukhtar-x&theme=tokyonight&hide_border=true&stroke=2196F3&fire=2196F3&ring=2196F3" />
 </div>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mukhtar-816&layout=compact&langs_count=8&theme=tokyonight&title_color=2196F3&hide_border=true" />
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mukhtar-816&theme=tokyonight" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mukhtar-x&layout=compact&langs_count=8&theme=tokyonight&title_color=2196F3&hide_border=true" />
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mukhtar-x&theme=tokyonight" />
 </div>
 
 ---
@@ -103,10 +103,10 @@
   <a href="mailto:mukhtarshaikh.official@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="https://www.linkedin.com/in/mukhtar-shaikh" target="_blank">
+  <a href="https://www.linkedin.com/in/mukhtar-shaikh-x" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://github.com/Mukhtar-816" target="_blank">
+  <a href="https://github.com/Mukhtar-x" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   <a href="https://twitter.com/mukhtarshaikh816" target="_blank">
