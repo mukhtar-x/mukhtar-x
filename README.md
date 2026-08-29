@@ -15,7 +15,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Anmol-Baranwal/master/media/coding.gif" width="420" alt="Coding Animation" />
+  <img src="./codng" width="420" alt="System Architecture Animation" />
 </p>
 
 <p align="center">
