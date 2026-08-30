@@ -132,7 +132,7 @@
 
 | Interface | Codebase | Architectural Domain | Core Stack |
 | :---: | :--- | :--- | :--- |
-| <a href="https://github.com/mukhtar-x/Monitoring_Script"><img src="https://placehold.co/320x190/0D1117/A3A3A3?text=Script+Preview" width="160" height="95" alt="Monitoring Script Preview" /></a> | <a href="https://github.com/mukhtar-x/Monitoring_Script"><kbd>Monitoring_Script</kbd></a> | **Task Execution Engine**<br>Automated execution and system monitoring pipeline for high-availability tracking. | `JavaScript`<br>`Node.js` |
+| <a href="https://github.com/mukhtar-x/Monitoring_Script"><img src="https://placehold.co/320x190/161b22/A3A3A3.png?text=Script+Preview" width="160" height="95" alt="Monitoring Script Preview" /></a> | <a href="https://github.com/mukhtar-x/Monitoring_Script"><kbd>Monitoring_Script</kbd></a> | **Task Execution Engine**<br>Automated execution and system monitoring pipeline for high-availability tracking. | `JavaScript`<br>`Node.js` |
 
 <br>
 
@@ -142,8 +142,8 @@
 
 | Interface | Codebase | Architectural Domain | Core Stack |
 | :---: | :--- | :--- | :--- |
-| <a href="https://github.com/mukhtar-x/DevCollab"><img src="https://placehold.co/320x190/0D1117/A3A3A3?text=DevCollab" width="160" height="95" alt="DevCollab Preview" /></a> | <a href="https://github.com/mukhtar-x/DevCollab"><kbd>DevCollab</kbd></a> | **Collaboration Platform**<br>Ground-up full-stack environment built without AI scaffolding for strict state control. | `TypeScript`<br>`React`<br>`Node.js` |
-| <a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs"><img src="https://placehold.co/320x190/0D1117/A3A3A3?text=HMS+Portal" width="160" height="95" alt="HMS Preview" /></a> | <a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs"><kbd>HMS-NextJS</kbd></a> | **Healthcare Portal**<br>Dynamic medical record dispatch system featuring responsive patient-provider routing. | `Next.js`<br>`TypeScript`<br>`Tailwind` |
+| <a href="https://github.com/mukhtar-x/DevCollab"><img src="https://placehold.co/320x190/161b22/A3A3A3.png?text=DevCollab" width="160" height="95" alt="DevCollab Preview" /></a> | <a href="https://github.com/mukhtar-x/DevCollab"><kbd>DevCollab</kbd></a> | **Collaboration Platform**<br>Ground-up full-stack environment built without AI scaffolding for strict state control. | `TypeScript`<br>`React`<br>`Node.js` |
+| <a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs"><img src="https://placehold.co/320x190/161b22/A3A3A3.png?text=HMS+Portal" width="160" height="95" alt="HMS Preview" /></a> | <a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs"><kbd>HMS-NextJS</kbd></a> | **Healthcare Portal**<br>Dynamic medical record dispatch system featuring responsive patient-provider routing. | `Next.js`<br>`TypeScript`<br>`Tailwind` |
 
 <br>
 
@@ -153,7 +153,7 @@
 
 | Interface | Codebase | Architectural Domain | Core Stack |
 | :---: | :--- | :--- | :--- |
-| <a href="https://github.com/mukhtar-x/WeatherApp"><img src="https://placehold.co/320x190/0D1117/A3A3A3?text=Weather+App" width="160" height="95" alt="WeatherApp Preview" /></a> | <a href="https://github.com/mukhtar-x/WeatherApp"><kbd>WeatherApp</kbd></a> | **Async Data Fetcher**<br>Dynamic client application fetching real-time weather metrics via asynchronous API endpoints. | `JavaScript`<br>`REST API` |
+| <a href="https://github.com/mukhtar-x/WeatherApp"><img src="https://placehold.co/320x190/161b22/A3A3A3.png?text=Weather+App" width="160" height="95" alt="WeatherApp Preview" /></a> | <a href="https://github.com/mukhtar-x/WeatherApp"><kbd>WeatherApp</kbd></a> | **Async Data Fetcher**<br>Dynamic client application fetching real-time weather metrics via asynchronous API endpoints. | `JavaScript`<br>`REST API` |
 
 <br>
 
@@ -163,7 +163,7 @@
 
 | Interface | Codebase | Architectural Domain | Core Stack |
 | :---: | :--- | :--- | :--- |
-| <a href="https://github.com/mukhtar-x/LeadScrapers"><img src="https://placehold.co/320x190/0D1117/A3A3A3?text=LeadScrapers" width="160" height="95" alt="LeadScrapers Preview" /></a> | <a href="https://github.com/mukhtar-x/LeadScrapers"><kbd>LeadScrapers</kbd></a> | **DOM Parsing Pipeline**<br>High-efficiency DOM parser engineered for automated target data extraction and cleaning. | `JavaScript`<br>`DOM Parser` |
+| <a href="https://github.com/mukhtar-x/LeadScrapers"><img src="https://placehold.co/320x190/161b22/A3A3A3.png?text=LeadScrapers" width="160" height="95" alt="LeadScrapers Preview" /></a> | <a href="https://github.com/mukhtar-x/LeadScrapers"><kbd>LeadScrapers</kbd></a> | **DOM Parsing Pipeline**<br>High-efficiency DOM parser engineered for automated target data extraction and cleaning. | `JavaScript`<br>`DOM Parser` |
 
 <br>
 
@@ -173,8 +173,8 @@
 
 | Interface | Codebase | Architectural Domain | Core Stack |
 | :---: | :--- | :--- | :--- |
-| <a href="https://github.com/mukhtar-x/RailwayManagement-OOP-GUI"><img src="https://placehold.co/320x190/0D1117/A3A3A3?text=Railway+GUI" width="160" height="95" alt="Railway Management Preview" /></a> | <a href="https://github.com/mukhtar-x/RailwayManagement-OOP-GUI"><kbd>Railway-GUI</kbd></a> | **OOP Scheduling Engine**<br>Native memory management implementing dynamic graph routing and track assignments. | `C++`<br>`GUI Library` |
-| <a href="https://github.com/mukhtar-x/SnakeGameAssembly"><img src="https://placehold.co/320x190/0D1117/A3A3A3?text=x86+Snake" width="160" height="95" alt="x86 Snake Preview" /></a> | <a href="https://github.com/mukhtar-x/SnakeGameAssembly"><kbd>x86-Snake</kbd></a> | **Bare-Metal Runtime**<br>Register-level memory control and hardware interrupt handling for real-time grid execution. | `Assembly x86`<br>`Irvine32` |
+| <a href="https://github.com/mukhtar-x/RailwayManagement-OOP-GUI"><img src="https://placehold.co/320x190/161b22/A3A3A3.png?text=Railway+GUI" width="160" height="95" alt="Railway Management Preview" /></a> | <a href="https://github.com/mukhtar-x/RailwayManagement-OOP-GUI"><kbd>Railway-GUI</kbd></a> | **OOP Scheduling Engine**<br>Native memory management implementing dynamic graph routing and track assignments. | `C++`<br>`GUI Library` |
+| <a href="https://github.com/mukhtar-x/SnakeGameAssembly"><img src="https://placehold.co/320x190/161b22/A3A3A3.png?text=x86+Snake" width="160" height="95" alt="x86 Snake Preview" /></a> | <a href="https://github.com/mukhtar-x/SnakeGameAssembly"><kbd>x86-Snake</kbd></a> | **Bare-Metal Runtime**<br>Register-level memory control and hardware interrupt handling for real-time grid execution. | `Assembly x86`<br>`Irvine32` |
 
 ---
 
