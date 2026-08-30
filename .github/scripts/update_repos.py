@@ -5,21 +5,22 @@ import requests
 USERNAME = "mukhtar-x"
 README_PATH = "README.md"
 
+# Priority keyword mapping
 CATEGORIES = {
     "AUTOMATION": ["script", "automation", "n8n", "bot", "monitoring"],
-    "FULLSTACK": ["fullstack", "next", "react", "node", "express", "web", "hms", "devcollab"],
-    "MOBILE": ["mobile", "android", "ios", "react-native", "weather"],
-    "SCRAPING": ["scraper", "scraping", "lead", "dom", "parser"],
-    "SYSTEMS": ["assembly", "c++", "c", "low-level", "gui", "cli", "snake", "railway"]
+    "FULLSTACK": ["web", "fullstack", "next", "react", "node", "express", "hms", "devcollab", "silkshine"],
+    "MOBILE": ["app", "mobile", "android", "ios", "reactnative", "flutter"],
+    "SCRAPING": ["scrape", "scraper", "scraping", "lead", "dom", "parser"],
+    "SYSTEMS": ["system", "assembly", "cpp", "cplusplus", "lowlevel", "gui", "cli", "snake", "railway"]
 }
 
 def normalize_text(text):
-    """Removes all non-alphanumeric characters and converts to lowercase."""
+    """Strips all non-alphanumeric characters and converts to lower case."""
     return re.sub(r'[^a-zA-Z0-9]', '', text).lower() if text else ""
 
 def fetch_repositories():
     url = f"https://api.github.com/users/{USERNAME}/repos?sort=updated&per_page=100"
-    headers = {}
+    headers = {"Accept": "application/vnd.github.v3+json"}
     token = os.getenv("GITHUB_TOKEN")
     if token:
         headers["Authorization"] = f"token {token}"
@@ -60,7 +61,7 @@ def update_readme():
         content = f.read()
 
     all_repos = fetch_repositories()
-    
+    # Exclude forks and self-profile repo
     user_repos = [r for r in all_repos if not r.get("fork") and r["name"].lower() != USERNAME.lower()]
 
     for cat_name, keywords in CATEGORIES.items():
@@ -68,12 +69,18 @@ def update_readme():
         normalized_keywords = [normalize_text(kw) for kw in keywords]
 
         for r in user_repos:
-            # Strip spaces, hyphens, underscores to form a continuous string
-            clean_name = normalize_text(r["name"])
-            clean_desc = normalize_text(r.get("description") or "")
-            clean_target = clean_name + clean_desc
+            # 1. Gather all potential text fields from API data
+            name = normalize_text(r.get("name"))
+            desc = normalize_text(r.get("description"))
+            homepage = normalize_text(r.get("homepage"))
+            topics = normalize_text("".join(r.get("topics", [])))
+            lang = normalize_text(r.get("language"))
 
-            if any(kw in clean_target for kw in normalized_keywords):
+            # 2. Combine all sources into a single normalized search string
+            search_blob = name + desc + homepage + topics + lang
+
+            # 3. Match against normalized keywords
+            if any(kw in search_blob for kw in normalized_keywords if kw):
                 matched_repos.append(r)
 
         if matched_repos:
