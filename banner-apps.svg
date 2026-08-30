@@ -11,8 +11,11 @@
     </style>
   </defs>
 
-  <rect class="bg" x="2" y="2" width="846" height="76" rx="6" />
-  <path class="hud" d="M 12 18 L 12 12 L 18 12 M 832 12 L 838 12 L 838 18 M 12 62 L 12 68 L 18 68 M 838 62 L 838 68 L 832 68" />
+  <!-- Fixed background rectangle to fit within canvas borders without clipping -->
+  <rect class="bg" x="2" y="2" width="1196" height="76" rx="6" />
+
+  <!-- Fixed HUD corner coordinates for 1200px width -->
+  <path class="hud" d="M 12 18 L 12 12 L 18 12 M 1182 12 L 1188 12 L 1188 18 M 12 62 L 12 68 L 18 68 M 1188 62 L 1188 68 L 1182 68" />
 
   <g transform="translate(32, 28)">
     <rect class="icon" width="14" height="20" x="5" y="2" rx="2" ry="2"/>
