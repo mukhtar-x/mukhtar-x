@@ -121,14 +121,13 @@
 </div>
 
 <img src="./divider.svg" width="100%" height="6" alt="" />
-<p align="center">
-  <img src="./assets/banner-systems.svg" width="100%" alt="Codebase Catalog & Systems Registry" />
-</p>
+
+## Codebase Catalog & Systems Registry
 
 <br>
 
-<p align="left">
-  <img src="./banner-automation.svg" width="60%" alt="Automation & Workflow Engineering" />
+<p align="center">
+  <img src="./banner-automation.svg" width="100%" alt="Automation & Workflow Engineering" />
 </p>
 
 | Interface | Codebase | Architectural Domain | Core Stack |
@@ -137,8 +136,8 @@
 
 <br>
 
-<p align="left">
-  <img src="./banner-fullstack.svg" width="60%" alt="Full-Stack Web Applications" />
+<p align="center">
+  <img src="./banner-fullstack.svg" width="100%" alt="Full-Stack Web Applications" />
 </p>
 
 | Interface | Codebase | Architectural Domain | Core Stack |
@@ -148,8 +147,8 @@
 
 <br>
 
-<p align="left">
-  <img src="./banner-apps.svg" width="60%" alt="Client Applications & Tools" />
+<p align="center">
+  <img src="./banner-apps.svg" width="100%" alt="Android & iOS Mobile Applications" />
 </p>
 
 | Interface | Codebase | Architectural Domain | Core Stack |
@@ -158,8 +157,8 @@
 
 <br>
 
-<p align="left">
-  <img src="./banner-scraping.svg" width="60%" alt="Data Extraction & Web Scraping" />
+<p align="center">
+  <img src="./banner-scraping.svg" width="100%" alt="Data Extraction & Web Scraping" />
 </p>
 
 | Interface | Codebase | Architectural Domain | Core Stack |
@@ -168,8 +167,8 @@
 
 <br>
 
-<p align="left">
-  <img src="./banner-systems.svg" width="60%" alt="Systems & Low-Level Software" />
+<p align="center">
+  <img src="./banner-systems.svg" width="100%" alt="Systems & Low-Level CLI Systems" />
 </p>
 
 | Interface | Codebase | Architectural Domain | Core Stack |
@@ -179,11 +178,9 @@
 
 ---
 
-
 <p align="center">
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Mukhtar-x&hide_border=true&background=000000&stroke=FFFFFF&ring=333333&fire=FFFFFF&currStreakNum=FFFFFF&currStreakLabel=A3A3A3&sideNums=FFFFFF&sideLabels=A3A3A3&dates=A3A3A3" alt="GitHub Streak" />
   
-  <!-- Note: This specific API doesn't support pure black natively, so we force the darkest standard theme to match -->
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mukhtar-x&theme=dark" alt="Profile Summary" />
 </p>
 
