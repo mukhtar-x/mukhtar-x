@@ -183,13 +183,14 @@
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Mukhtar-x&hide_border=true&background=000000&stroke=FFFFFF&ring=333333&fire=FFFFFF&currStreakNum=FFFFFF&currStreakLabel=A3A3A3&sideNums=FFFFFF&sideLabels=A3A3A3&dates=A3A3A3" alt="GitHub Streak" />
   
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mukhtar-x&theme=dark" alt="Profile Summary" />
+
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mukhtar-x&layout=compact&langs_count=8&bg_color=000000&background=000000&title_color=FFFFFF&text_color=A3A3A3&icon_color=FFFFFF&hide_border=true" alt="Top Languages" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Mukhtar-x&show_icons=true&include_all_commits=true&count_private=true&bg_color=000000&title_color=FFFFFF&text_color=A3A3A3&icon_color=FFFFFF&hide_border=true" alt="GitHub Stats" />
+  <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Mukhtar-x&layout=compact&langs_count=8&theme=dark&bg_color=000000&hide_border=true&title_color=FFFFFF&text_color=A3A3A3&icon_color=FFFFFF" alt="Top Languages" />
+  <img height="180" src="https://github-stats-extended.vercel.app/api?username=Mukhtar-x&show_icons=true&include_all_commits=true&count_private=true&theme=dark&bg_color=000000&hide_border=true&title_color=FFFFFF&text_color=A3A3A3&icon_color=FFFFFF" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,333333,000000&height=120&section=footer&text=%E2%80%9CTalk%20is%20cheap.%20Show%20me%20the%20code.%E2%80%9D%20%E2%80%94%20Linus%20Torvalds&fontSize=16&fontColor=ffffff&fontAlign=50&animation=fadeIn" alt="Linus Torvalds Quote" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=120&section=footer&text=%E2%80%9CTalk%20is%20cheap.%20Show%20me%20the%20code.%E2%80%9D%20%E2%80%94%20Linus%20Torvalds&fontSize=16&fontColor=ffffff&fontAlign=50&animation=fadeIn" alt="Linus Torvalds Quote" width="100%" />
 </p>
