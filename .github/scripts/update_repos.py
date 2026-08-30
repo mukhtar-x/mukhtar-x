@@ -5,7 +5,6 @@ import requests
 USERNAME = "mukhtar-x"
 README_PATH = "README.md"
 
-# Maps your custom README comment tags to language/topic keywords in your repos
 CATEGORIES = {
     "AUTOMATION": ["script", "automation", "n8n", "bot", "monitoring"],
     "FULLSTACK": ["fullstack", "next", "react", "node", "express", "web", "hms", "devcollab"],
@@ -13,6 +12,10 @@ CATEGORIES = {
     "SCRAPING": ["scraper", "scraping", "lead", "dom", "parser"],
     "SYSTEMS": ["assembly", "c++", "c", "low-level", "gui", "cli", "snake", "railway"]
 }
+
+def normalize_text(text):
+    """Removes all non-alphanumeric characters and converts to lowercase."""
+    return re.sub(r'[^a-zA-Z0-9]', '', text).lower() if text else ""
 
 def fetch_repositories():
     url = f"https://api.github.com/users/{USERNAME}/repos?sort=updated&per_page=100"
@@ -58,14 +61,19 @@ def update_readme():
 
     all_repos = fetch_repositories()
     
-    # Filter out forks or profile repos
     user_repos = [r for r in all_repos if not r.get("fork") and r["name"].lower() != USERNAME.lower()]
 
     for cat_name, keywords in CATEGORIES.items():
         matched_repos = []
+        normalized_keywords = [normalize_text(kw) for kw in keywords]
+
         for r in user_repos:
-            repo_text = (r["name"] + " " + (r.get("description") or "")).lower()
-            if any(kw in repo_text for kw in keywords):
+            # Strip spaces, hyphens, underscores to form a continuous string
+            clean_name = normalize_text(r["name"])
+            clean_desc = normalize_text(r.get("description") or "")
+            clean_target = clean_name + clean_desc
+
+            if any(kw in clean_target for kw in normalized_keywords):
                 matched_repos.append(r)
 
         if matched_repos:
