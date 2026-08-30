@@ -121,6 +121,7 @@
 <!-- AUTOMATION-START -->
 | Interface | Codebase | Architectural Domain | Core Stack |
 | :---: | :--- | :--- | :--- |
+| <a href="https://github.com/mukhtar-x/Automatin-Outreach-Engine-N8N"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=Automatin-Outreach-Engine-N8N" width="160" height="95" alt="Automatin-Outreach-Engine-N8N Preview" /></a> | <a href="https://github.com/mukhtar-x/Automatin-Outreach-Engine-N8N"><kbd>Automatin-Outreach-Engine-N8N</kbd></a> | **Automatin-Outreach-Engine-N8N**<br>Automated project repository. | `Code` |
 | <a href="https://github.com/mukhtar-x/Monitoring_Script"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=Monitoring_Script" width="160" height="95" alt="Monitoring_Script Preview" /></a> | <a href="https://github.com/mukhtar-x/Monitoring_Script"><kbd>Monitoring_Script</kbd></a> | **Monitoring_Script**<br>Automated project repository. | `JavaScript` |
 <!-- AUTOMATION-END -->
 <br>
