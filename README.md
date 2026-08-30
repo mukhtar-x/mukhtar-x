@@ -2,34 +2,34 @@
   <img src="./banner.svg" alt="Banner" width="100%" />
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <b>SYSTEMS ARCHITECT &bull; THREAT RESEARCHER &bull; FULL-STACK DEVELOPER</b>
-</p>
+</p> -->
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=100&color=2196F3&center=true&vCenter=true&width=700&lines=Architecting+Anonymous+Systems.;Analyzing+Threat+Actor+Behavior.;Obsessive+Over+High-Impact+Priorities.;I+Outbuild.+I+Outthink.+I+Outperform." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=100&color=FFFFFF&center=true&vCenter=true&width=700&lines=Architecting+Anonymous+Systems.;Analyzing+Threat+Actor+Behavior.;Obsessive+Over+High-Impact+Priorities.;I+Outbuild.+I+Outthink.+I+Outperform." alt="Typing SVG" />
   </a>
 </div>
 
-<p align="center">
+<!-- <p align="center">
   <img src="./coding.gif" width="120" alt="System Architecture Animation" />
-</p>
+</p> -->
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Mukhtar-x&color=2196F3&style=for-the-badge&label=PROFILE+VIEWS" alt="Visitor Count" />
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-00C853?style=for-the-badge&logo=adafruit&logoColor=white" alt="Status" />
+  <img src="https://komarev.com/ghpvc/?username=Mukhtar-x&color=000000&style=for-the-badge&label=PROFILE+VIEWS" alt="Visitor Count" />
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-000000?style=for-the-badge&logo=adafruit&logoColor=white" alt="Status" />
 </p>
 
 <p align="center">
   <a href="mailto:mukhtarshaikh.official@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   <a href="https://www.linkedin.com/in/mukhtar-shaikh-x">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://github.com/Mukhtar-x">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 
@@ -122,16 +122,16 @@
 
 <img src="./divider.svg" width="100%" height="6" alt="" />
 
-## 🗂️ Repositories
+## Repositories <img src="https://api.iconify.design/lucide:folder-git-2.svg?color=%23FFFFFF" width="20" height="20" style="vertical-align: middle; margin-left: 6px;" />
 
-### 🔐 Systems & Security Core
+### Systems & Security Core <img src="https://api.iconify.design/lucide:shield-lock.svg?color=%23FFFFFF" width="18" height="18" style="vertical-align: middle; margin-left: 6px;" />
 
 | Repository | Details | Stack |
 |---|---|---|
 | **[anonymous-core](https://github.com/Mukhtar-x/anonymous-core)** | Zero-trust routing pipeline implementing secure memory boundaries and proxy mesh handling for isolated communication paths. | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) `Active` |
 | **[opsec-sentinel](https://github.com/Mukhtar-x/opsec-sentinel)** | Threat actor OPSEC analysis tool parsing C2 operational footprints and detecting signature behavioral traits. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) `Active` |
 
-### 🌐 Web Applications & Portals
+### Web Applications & Portals <img src="https://api.iconify.design/lucide:globe.svg?color=%23FFFFFF" width="18" height="18" style="vertical-align: middle; margin-left: 6px;" />
 
 | Repository | Details | Stack |
 |---|---|---|
@@ -145,7 +145,7 @@
 | **[CarWashWebsite](https://github.com/Mukhtar-x/CarWashWebsite)** | Service booking front-end application built for local automotive care and facility operations. | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 | **[Personal_Portfolio](https://github.com/Mukhtar-x/Personal_Portfolio)** | Interactive portfolio web interface showcasing professional background, technical competencies, and works. | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 
-### 💻 Client & Desktop Applications
+### Client & Desktop Applications <img src="https://api.iconify.design/lucide:monitor.svg?color=%23FFFFFF" width="18" height="18" style="vertical-align: middle; margin-left: 6px;" />
 
 | Repository | Details | Stack |
 |---|---|---|
@@ -155,7 +155,7 @@
 | **[TregoApp](https://github.com/Mukhtar-x/TregoApp)** | Task management and daily productivity tracking client application with modular components. | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 | **[CarWashApp](https://github.com/Mukhtar-x/CarWashApp)** | Management client application for scheduling appointments and tracking cleaning service orders. | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 
-### ⚙️ Automation & Scripting
+### Automation & Scripting <img src="https://api.iconify.design/lucide:cpu.svg?color=%23FFFFFF" width="18" height="18" style="vertical-align: middle; margin-left: 6px;" />
 
 | Repository | Details | Stack |
 |---|---|---|
@@ -164,7 +164,7 @@
 | **[Monitoring_Script](https://github.com/Mukhtar-x/Monitoring_Script)** | Background execution monitor tracking host system resource parameters, CPU usage, and alerting state changes. | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 | **[SpyX](https://github.com/Mukhtar-x/SpyX)** | Python utility script structured for event logging, process surveillance, and data tracking tasks. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 
-### 🧠 Low-Level Programming & Systems
+### Low-Level Programming & Systems <img src="https://api.iconify.design/lucide:binary.svg?color=%23FFFFFF" width="18" height="18" style="vertical-align: middle; margin-left: 6px;" />
 
 | Repository | Details | Stack |
 |---|---|---|
@@ -176,18 +176,18 @@
 
 <img src="./divider.svg" width="100%" height="6" alt="" />
 
-## 📊 Metrics & Ecosystem
+## Metrics & Ecosystem <img src="https://api.iconify.design/lucide:bar-chart-3.svg?color=%23FFFFFF" width="20" height="20" style="vertical-align: middle; margin-left: 6px;" />
 
 <p align="center">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Mukhtar-x&theme=tokyonight&hide_border=true&stroke=2196F3&fire=2196F3&ring=2196F3" alt="GitHub Streak" />
-  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mukhtar-x&theme=tokyonight" alt="Profile Summary" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Mukhtar-x&theme=transparent&hide_border=true&stroke=FFFFFF&fire=FFFFFF&ring=FFFFFF&currStreakNum=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" alt="GitHub Streak" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mukhtar-x&theme=vue-dark" alt="Profile Summary" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mukhtar-x&layout=compact&langs_count=8&theme=tokyonight&title_color=2196F3&hide_border=true" alt="Top Languages" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Mukhtar-x&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&title_color=2196F3&icon_color=2196F3&hide_border=true" alt="GitHub Stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mukhtar-x&layout=compact&langs_count=8&theme=transparent&title_color=FFFFFF&text_color=FFFFFF&hide_border=true" alt="Top Languages" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Mukhtar-x&show_icons=true&theme=transparent&include_all_commits=true&count_private=true&title_color=FFFFFF&text_color=FFFFFF&icon_color=FFFFFF&hide_border=true" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2196F3,00E5FF,7928CA&height=120&section=footer&text=%E2%80%9CTalk%20is%20cheap.%20Show%20me%20the%20code.%E2%80%9D%20%E2%80%94%20Linus%20Torvalds&fontSize=16&fontColor=ffffff&fontAlign=50&animation=fadeIn" alt="Linus Torvalds Quote" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,333333,000000&height=120&section=footer&text=%E2%80%9CTalk%20is%20cheap.%20Show%20me%20the%20code.%E2%80%9D%20%E2%80%94%20Linus%20Torvalds&fontSize=16&fontColor=ffffff&fontAlign=50&animation=fadeIn" alt="Linus Torvalds Quote" width="100%" />
 </p>
