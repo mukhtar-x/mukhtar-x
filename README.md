@@ -2,6 +2,7 @@
   <img src="./assets/banner.svg" alt="Banner" width="100%" />
 </p>
 
+ 
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=100&color=FFFFFF&center=true&vCenter=true&width=700&lines=Architecting+Anonymous+Systems.;Analyzing+Threat+Actor+Behavior.;Obsessive+Over+High-Impact+Priorities.;I+Outbuild.+I+Outthink.+I+Outperform." alt="Typing SVG" />
