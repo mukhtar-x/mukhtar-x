@@ -2,16 +2,24 @@
   <img src="./banner.svg" alt="Banner" width="100%" />
 </p>
 
+<!-- <p align="center">
+  <b>SYSTEMS ARCHITECT &bull; THREAT RESEARCHER &bull; FULL-STACK DEVELOPER</b>
+</p> -->
+
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=100&color=FFFFFF&center=true&vCenter=true&width=700&lines=Architecting+Anonymous+Systems.;Analyzing+Threat+Actor+Behavior.;Obsessive+Over+High-Impact+Priorities.;I+Outbuild.+I+Outthink.+I+Outperform." alt="Typing SVG" />
   </a>
 </div>
 
-<p align="center">
+<!-- <p align="center">
+  <img src="./coding.gif" width="120" alt="System Architecture Animation" />
+</p> -->
+
+<!-- <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Mukhtar-x&color=000000&style=for-the-badge&label=PROFILE+VIEWS" alt="Visitor Count" />
   <img src="https://img.shields.io/badge/STATUS-ONLINE-000000?style=for-the-badge&logo=adafruit&logoColor=white" alt="Status" />
-</p>
+</p> -->
 
 <p align="center">
   <a href="mailto:mukhtarshaikh.official@gmail.com">
@@ -27,17 +35,13 @@
 
 <img src="./divider.svg" width="100%" height="6" alt="" />
 
-<p align="center">
-  <img src="./philosophy.svg" width="100%" alt="Engineering Philosophy" />
-</p>
+## Engineering Philosophy
 
 > *"Simplicity is a prerequisite for reliability. In low-latency systems and secure network design, every layer added is a potential vulnerability introduced."*
 
 <img src="./divider.svg" width="100%" height="6" alt="" />
 
-<p align="center">
-  <img src="./focus.svg" width="100%" alt="Current Focus & System Trajectory" />
-</p>
+## Current Focus & System Trajectory
 
 - **Zero-Trust Network Topologies** — Researching memory safety enforcement in systems-level proxy meshes and decentralized routing pipelines.
 - **Threat Actor Analysis** — Analyzing cybercriminal behavioral methodologies, operational security flaws, and execution patterns.
@@ -45,9 +49,7 @@
 
 <img src="./divider.svg" width="100%" height="6" alt="" />
 
-<p align="center">
-  <img src="./stack.svg" width="100%" alt="Tech Stack & Core Competencies" />
-</p>
+## Tech Stack & Core Competencies
 
 <div style="width: 100%; overflow-x: auto;">
   <table width="100%">
@@ -120,9 +122,7 @@
 
 <img src="./divider.svg" width="100%" height="6" alt="" />
 
-<p align="center">
-  <img src="./repos.svg" width="100%" alt="Repositories" />
-</p>
+## Repositories <img src="https://api.iconify.design/lucide:folder-git-2.svg?color=%23FFFFFF" width="20" height="20" style="vertical-align: middle; margin-left: 6px;" />
 
 ### Systems & Security Core <img src="https://api.iconify.design/lucide:shield-lock.svg?color=%23FFFFFF" width="18" height="18" style="vertical-align: middle; margin-left: 6px;" />
 
@@ -176,18 +176,18 @@
 
 <img src="./divider.svg" width="100%" height="6" alt="" />
 
+## Metrics & Ecosystem <img src="https://api.iconify.design/lucide:bar-chart-3.svg?color=%23FFFFFF" width="20" height="20" style="vertical-align: middle; margin-left: 6px;" />
+
 <p align="center">
-  <img src="./metrics.svg" width="100%" alt="Metrics & Ecosystem" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Mukhtar-x&hide_border=true&background=000000&stroke=FFFFFF&ring=333333&fire=FFFFFF&currStreakNum=FFFFFF&currStreakLabel=A3A3A3&sideNums=FFFFFF&sideLabels=A3A3A3&dates=A3A3A3" alt="GitHub Streak" />
+  
+  <!-- Note: This specific API doesn't support pure black natively, so we force the darkest standard theme to match -->
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mukhtar-x&theme=dark" alt="Profile Summary" />
 </p>
 
 <p align="center">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Mukhtar-x&theme=transparent&hide_border=true&stroke=FFFFFF&fire=FFFFFF&ring=FFFFFF&currStreakNum=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" alt="GitHub Streak" />
-  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mukhtar-x&theme=vue-dark" alt="Profile Summary" />
-</p>
-
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mukhtar-x&layout=compact&langs_count=8&theme=transparent&title_color=FFFFFF&text_color=FFFFFF&hide_border=true" alt="Top Languages" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Mukhtar-x&show_icons=true&theme=transparent&include_all_commits=true&count_private=true&title_color=FFFFFF&text_color=FFFFFF&icon_color=FFFFFF&hide_border=true" alt="GitHub Stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mukhtar-x&layout=compact&langs_count=8&bg_color=000000&background=000000&title_color=FFFFFF&text_color=A3A3A3&icon_color=FFFFFF&hide_border=true" alt="Top Languages" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Mukhtar-x&show_icons=true&include_all_commits=true&count_private=true&bg_color=000000&title_color=FFFFFF&text_color=A3A3A3&icon_color=FFFFFF&hide_border=true" alt="GitHub Stats" />
 </p>
 
 <p align="center">
