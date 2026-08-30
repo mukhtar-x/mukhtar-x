@@ -127,8 +127,8 @@
 
 <br>
 
-<p align="center">
-  <img src="./assets/banner-automation.svg" width="100%" alt="Automation & Workflow Engineering" />
+<p align="left">
+  <img src="./banner-automation.svg" width="60%" alt="Automation & Workflow Engineering" />
 </p>
 
 | Interface | Codebase | Architectural Domain | Core Stack |
@@ -137,8 +137,8 @@
 
 <br>
 
-<p align="center">
-  <img src="./assets/banner-fullstack.svg" width="100%" alt="Full-Stack Web Applications" />
+<p align="left">
+  <img src="./banner-fullstack.svg" width="60%" alt="Full-Stack Web Applications" />
 </p>
 
 | Interface | Codebase | Architectural Domain | Core Stack |
@@ -148,8 +148,8 @@
 
 <br>
 
-<p align="center">
-  <img src="./assets/banner-apps.svg" width="100%" alt="Client Applications & Tools" />
+<p align="left">
+  <img src="./banner-apps.svg" width="60%" alt="Client Applications & Tools" />
 </p>
 
 | Interface | Codebase | Architectural Domain | Core Stack |
@@ -158,8 +158,8 @@
 
 <br>
 
-<p align="center">
-  <img src="./assets/banner-scraping.svg" width="100%" alt="Data Extraction & Web Scraping" />
+<p align="left">
+  <img src="./banner-scraping.svg" width="60%" alt="Data Extraction & Web Scraping" />
 </p>
 
 | Interface | Codebase | Architectural Domain | Core Stack |
@@ -168,8 +168,8 @@
 
 <br>
 
-<p align="center">
-  <img src="./assets/banner-systems.svg" width="100%" alt="Systems & Low-Level Software" />
+<p align="left">
+  <img src="./banner-systems.svg" width="60%" alt="Systems & Low-Level Software" />
 </p>
 
 | Interface | Codebase | Architectural Domain | Core Stack |
