@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" alt="Banner" width="100%" />
+  <img src="./assets/banner.svg" alt="Banner" width="100%" />
 </p>
 
 <div align="center">
@@ -114,7 +114,7 @@
 <br>
 
 <p align="center">
-  <img src="./banner-automation.svg" width="100%" alt="Automation & Workflow Engineering" />
+  <img src="./assets/banner-automation.svg" width="100%" alt="Automation & Workflow Engineering" />
 </p>
 
 <!-- AUTOMATION-START -->
@@ -125,7 +125,7 @@
 <br>
 
 <p align="center">
-  <img src="./banner-fullstack.svg" width="100%" alt="Full-Stack Web Applications" />
+  <img src="./assets/banner-fullstack.svg" width="100%" alt="Full-Stack Web Applications" />
 </p>
 
 <!-- FULLSTACK-START -->
@@ -141,7 +141,7 @@
 <br>
 
 <p align="center">
-  <img src="./banner-apps.svg" width="100%" alt="Android & iOS Mobile Applications" />
+  <img src="./assets/banner-apps.svg" width="100%" alt="Android & iOS Mobile Applications" />
 </p>
 
 <!-- MOBILE-START -->
@@ -152,7 +152,7 @@
 <br>
 
 <p align="center">
-  <img src="./banner-scraping.svg" width="100%" alt="Data Extraction & Web Scraping" />
+  <img src="./assets/banner-scraping.svg" width="100%" alt="Data Extraction & Web Scraping" />
 </p>
 
 <!-- SCRAPING-START -->
@@ -163,7 +163,7 @@
 <br>
 
 <p align="center">
-  <img src="./banner-systems.svg" width="100%" alt="Systems & Low-Level CLI Systems" />
+  <img src="./assets/banner-systems.svg" width="100%" alt="Systems & Low-Level CLI Systems" />
 </p>
 
 <!-- SYSTEMS-START -->
