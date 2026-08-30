@@ -5,7 +5,6 @@ import requests
 USERNAME = "mukhtar-x"
 README_PATH = "README.md"
 
-# Priority keyword mapping
 CATEGORIES = {
     "AUTOMATION": ["script", "automation", "n8n", "bot", "monitoring"],
     "FULLSTACK": ["web", "fullstack", "next", "react", "node", "express", "hms", "devcollab", "silkshine"],
@@ -15,7 +14,6 @@ CATEGORIES = {
 }
 
 def normalize_text(text):
-    """Strips all non-alphanumeric characters and converts to lower case."""
     return re.sub(r'[^a-zA-Z0-9]', '', text).lower() if text else ""
 
 def fetch_repositories():
@@ -61,33 +59,39 @@ def update_readme():
         content = f.read()
 
     all_repos = fetch_repositories()
-    # Exclude forks and self-profile repo
     user_repos = [r for r in all_repos if not r.get("fork") and r["name"].lower() != USERNAME.lower()]
+
+    print(f"--- Total Public Non-Fork Repos Found: {len(user_repos)} ---")
+    for r in user_repos:
+        print(f"Discovered Repo: {r['name']}")
 
     for cat_name, keywords in CATEGORIES.items():
         matched_repos = []
         normalized_keywords = [normalize_text(kw) for kw in keywords]
 
         for r in user_repos:
-            # 1. Gather all potential text fields from API data
             name = normalize_text(r.get("name"))
             desc = normalize_text(r.get("description"))
             homepage = normalize_text(r.get("homepage"))
             topics = normalize_text("".join(r.get("topics", [])))
             lang = normalize_text(r.get("language"))
 
-            # 2. Combine all sources into a single normalized search string
             search_blob = name + desc + homepage + topics + lang
 
-            # 3. Match against normalized keywords
             if any(kw in search_blob for kw in normalized_keywords if kw):
                 matched_repos.append(r)
+
+        print(f"\nCategory [{cat_name}]: Matched {len(matched_repos)} repos -> {[r['name'] for r in matched_repos]}")
 
         if matched_repos:
             table_md = generate_table(matched_repos)
             pattern = rf"(<!-- {cat_name}-START -->)(.*?)(<!-- {cat_name}-END -->)"
-            replacement = f"\\1\n{table_md}\n\\3"
-            content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+            
+            if re.search(pattern, content, flags=re.DOTALL):
+                content = re.sub(pattern, f"\\1\n{table_md}\n\\3", content, flags=re.DOTALL)
+                print(f"SUCCESS: Injected {cat_name} table into README.md")
+            else:
+                print(f"WARNING: Tags <!-- {cat_name}-START --> and <!-- {cat_name}-END --> NOT found in README.md!")
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(content)
