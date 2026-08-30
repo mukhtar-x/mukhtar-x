@@ -44,8 +44,11 @@ def generate_table(repos):
         desc = repo.get("description") or "Automated project repository."
         lang = repo.get("language") or "Code"
         
+        # Uses crisp, uniform dark background (#0d1117) with bold white text (#ffffff)
+        img_url = f"https://placehold.co/600x350/0d1117/ffffff.png?text={name}"
+        
         row = (
-            f'| <a href="{url}"><img src="https://placehold.co/320x190/161b22/A3A3A3.png?text={name}" '
+            f'| <a href="{url}"><img src="{img_url}" '
             f'width="160" height="95" alt="{name} Preview" /></a> '
             f'| <a href="{url}"><kbd>{name}</kbd></a> '
             f'| **{name}**<br>{desc} '
@@ -54,7 +57,7 @@ def generate_table(repos):
         rows.append(row)
         
     return "\n".join(rows)
-
+    
 def update_readme():
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
