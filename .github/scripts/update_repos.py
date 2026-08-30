@@ -5,12 +5,13 @@ import requests
 USERNAME = "mukhtar-x"
 README_PATH = "README.md"
 
+# Precise keyword definitions
 CATEGORIES = {
     "AUTOMATION": ["script", "automation", "n8n", "bot", "monitoring"],
-    "FULLSTACK": ["web", "fullstack", "next", "react", "node", "express", "hms", "devcollab", "silkshine"],
-    "MOBILE": ["app", "mobile", "android", "ios", "reactnative", "flutter"],
-    "SCRAPING": ["scrape", "scraper", "scraping", "lead", "dom", "parser"],
-    "SYSTEMS": ["system", "assembly", "cpp", "cplusplus", "lowlevel", "gui", "cli", "snake", "railway"]
+    "FULLSTACK": ["fullstack", "nextjs", "react", "node", "express", "hms", "devcollab", "silkshine", "flask"],
+    "MOBILE": ["android", "ios", "reactnative", "flutter", "weatherapp"],
+    "SCRAPING": ["scraper", "scraping", "leadscraper", "parser"],
+    "SYSTEMS": ["assembly", "cpp", "cplusplus", "lowlevel", "gui", "cli", "snake", "railway", "os_"]
 }
 
 def normalize_text(text):
@@ -61,27 +62,28 @@ def update_readme():
     all_repos = fetch_repositories()
     user_repos = [r for r in all_repos if not r.get("fork") and r["name"].lower() != USERNAME.lower()]
 
-    print(f"--- Total Public Non-Fork Repos Found: {len(user_repos)} ---")
-    for r in user_repos:
-        print(f"Discovered Repo: {r['name']}")
+    # Track processed repositories to prevent category duplication
+    assigned_repos = set()
 
     for cat_name, keywords in CATEGORIES.items():
         matched_repos = []
         normalized_keywords = [normalize_text(kw) for kw in keywords]
 
         for r in user_repos:
+            repo_id = r["id"]
+            if repo_id in assigned_repos:
+                continue
+
             name = normalize_text(r.get("name"))
             desc = normalize_text(r.get("description"))
             homepage = normalize_text(r.get("homepage"))
             topics = normalize_text("".join(r.get("topics", [])))
-            lang = normalize_text(r.get("language"))
 
-            search_blob = name + desc + homepage + topics + lang
+            search_blob = name + desc + homepage + topics
 
             if any(kw in search_blob for kw in normalized_keywords if kw):
                 matched_repos.append(r)
-
-        print(f"\nCategory [{cat_name}]: Matched {len(matched_repos)} repos -> {[r['name'] for r in matched_repos]}")
+                assigned_repos.add(repo_id)
 
         if matched_repos:
             table_md = generate_table(matched_repos)
