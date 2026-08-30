@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="120" viewBox="0 0 850 120">
+  <defs>
+    <style>
+      .bg { fill: #000; }
+      .text-main { font-family: 'Courier New', monospace; font-size: 24px; fill: #FFF; font-weight: bold; letter-spacing: 4px; }
+      .text-sub { font-family: 'Courier New', monospace; font-size: 12px; fill: #555; letter-spacing: 8px; }
+      .ring { fill: none; stroke: #FFF; stroke-width: 1.5; stroke-dasharray: 4 8; }
+      .ring-inner { fill: none; stroke: #555; stroke-width: 1; stroke-dasharray: 20 10; }
+      .glow { filter: url(#glow-filter); }
+      
+      @keyframes spinRight { 100% { transform: rotate(360deg); } }
+      @keyframes spinLeft { 100% { transform: rotate(-360deg); } }
+      @keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+
+      .spin-r { transform-origin: 100px 60px; animation: spinRight 12s linear infinite; }
+      .spin-l { transform-origin: 100px 60px; animation: spinLeft 8s linear infinite; }
+      .pulse-node { animation: pulse 2s infinite ease-in-out; }
+    </style>
+    <filter id="glow-filter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect class="bg" width="100%" height="100%" />
+
+  <!-- Animated Geometric Core -->
+  <circle cx="100" cy="60" r="30" class="ring spin-r glow" />
+  <circle cx="100" cy="60" r="22" class="ring-inner spin-l" />
+  <circle cx="100" cy="60" r="4" fill="#FFF" class="pulse-node glow" />
+  <circle cx="100" cy="60" r="45" fill="none" stroke="#222" stroke-width="1" />
+
+  <!-- Decorative Lines -->
+  <line x1="160" y1="60" x2="850" y2="60" stroke="#222" stroke-width="1" />
+  <line x1="170" y1="40" x2="170" y2="80" stroke="#FFF" stroke-width="2" class="pulse-node" />
+
+  <!-- Typography -->
+  <text x="190" y="55" class="text-main glow">ENG_PHILOSOPHY</text>
+  <text x="192" y="80" class="text-sub">0x01 :: ARCHITECTURE_RULES</text>
+</svg>
