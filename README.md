@@ -1,8 +1,6 @@
-<h1 align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=300&color=2196F3&center=true&vCenter=true&width=700&lines=%40linux%3Awhoami;Muhammad+Mukhtar+Shaikh" alt="Terminal Whoami Animation" />
-  </a>
-</h1>
+<p align="center">
+  <img src="./coding-svg.svg" alt="Banner" width="100%" />
+</p>
 
 <p align="center">
   <b>SYSTEMS ARCHITECT &bull; THREAT RESEARCHER &bull; FULL-STACK DEVELOPER</b>
@@ -15,7 +13,7 @@
 </div>
 
 <p align="center">
-  <img src="./coding.gif" width="120" alt="System Architecture Animation" />
+  <img src="https://raw.githubusercontent.com/Mukhtar-x/Mukhtar-x/main/coding.gif" width="120" alt="System Architecture Animation" />
 </p>
 
 <p align="center">
