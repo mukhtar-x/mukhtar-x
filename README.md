@@ -180,15 +180,13 @@
 ---
 
 <p align="center">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Mukhtar-x&hide_border=true&background=000000&stroke=FFFFFF&ring=333333&fire=FFFFFF&currStreakNum=FFFFFF&currStreakLabel=A3A3A3&sideNums=FFFFFF&sideLabels=A3A3A3&dates=A3A3A3" alt="GitHub Streak" />
-  
-  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mukhtar-x&theme=dark" alt="Profile Summary" />
-
+  <img height="145" src="https://github-readme-streak-stats.herokuapp.com/?user=Mukhtar-x&hide_border=true&background=000000&stroke=FFFFFF&ring=333333&fire=FFFFFF&currStreakNum=FFFFFF&currStreakLabel=A3A3A3&sideNums=FFFFFF&sideLabels=A3A3A3&dates=A3A3A3" alt="GitHub Streak" />
+  <img height="145" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mukhtar-x&theme=dark" alt="Profile Summary" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Mukhtar-x&layout=compact&langs_count=8&theme=dark&bg_color=000000&hide_border=true&title_color=FFFFFF&text_color=A3A3A3&icon_color=FFFFFF" alt="Top Languages" />
-  <img height="180" src="https://github-stats-extended.vercel.app/api?username=Mukhtar-x&show_icons=true&include_all_commits=true&count_private=true&theme=dark&bg_color=000000&hide_border=true&title_color=FFFFFF&text_color=A3A3A3&icon_color=FFFFFF" alt="GitHub Stats" />
+  <img height="150" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Mukhtar-x&layout=compact&langs_count=8&theme=dark&bg_color=000000&hide_border=true&title_color=FFFFFF&text_color=A3A3A3&icon_color=FFFFFF" alt="Top Languages" />
+  <img height="150" src="https://github-stats-extended.vercel.app/api?username=Mukhtar-x&show_icons=true&include_all_commits=true&count_private=true&theme=dark&bg_color=000000&hide_border=true&title_color=FFFFFF&text_color=A3A3A3&icon_color=FFFFFF" alt="GitHub Stats" />
 </p>
 
 <p align="center">
