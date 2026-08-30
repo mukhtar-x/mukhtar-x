@@ -121,62 +121,64 @@
 </div>
 
 <img src="./divider.svg" width="100%" height="6" alt="" />
+<p align="center">
+  <img src="./assets/banner-systems.svg" width="100%" alt="Codebase Catalog & Systems Registry" />
+</p>
 
-## Repositories <img src="https://api.iconify.design/lucide:folder-git-2.svg?color=%23FFFFFF" width="20" height="20" style="vertical-align: middle; margin-left: 6px;" />
+<br>
 
-### Systems & Security Core <img src="https://api.iconify.design/lucide:shield-lock.svg?color=%23FFFFFF" width="18" height="18" style="vertical-align: middle; margin-left: 6px;" />
+<p align="center">
+  <img src="./assets/banner-automation.svg" width="100%" alt="Automation & Workflow Engineering" />
+</p>
 
-| Repository | Details | Stack |
-|---|---|---|
-| **[anonymous-core](https://github.com/Mukhtar-x/anonymous-core)** | Zero-trust routing pipeline implementing secure memory boundaries and proxy mesh handling for isolated communication paths. | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) `Active` |
-| **[opsec-sentinel](https://github.com/Mukhtar-x/opsec-sentinel)** | Threat actor OPSEC analysis tool parsing C2 operational footprints and detecting signature behavioral traits. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) `Active` |
+| Interface | Codebase | Architectural Domain | Core Stack |
+| :---: | :--- | :--- | :--- |
+| <a href="https://github.com/mukhtar-x/Monitoring_Script"><img src="https://placehold.co/320x190/0D1117/A3A3A3?text=Script+Preview" width="160" height="95" alt="Monitoring Script Preview" /></a> | <a href="https://github.com/mukhtar-x/Monitoring_Script"><kbd>Monitoring_Script</kbd></a> | **Task Execution Engine**<br>Automated execution and system monitoring pipeline for high-availability tracking. | `JavaScript`<br>`Node.js` |
 
-### Web Applications & Portals <img src="https://api.iconify.design/lucide:globe.svg?color=%23FFFFFF" width="18" height="18" style="vertical-align: middle; margin-left: 6px;" />
+<br>
 
-| Repository | Details | Stack |
-|---|---|---|
-| **[nexus-crm](https://github.com/Mukhtar-x/nexus-crm)** | Event-driven MERN CRM engine featuring asynchronous Node queues and real-time WhatsApp integration protocols. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) `Stable` |
-| **[Hospital-Management-System-Nextjs](https://github.com/Mukhtar-x/Hospital-Management-System-Nextjs)** | Full-stack hospital management platform featuring secure server routing, patient dashboards, and dynamic record views. | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) |
-| **[DevCollab](https://github.com/Mukhtar-x/DevCollab)** | Collaborative workspace environment built for developers to share code snippets, manage tasks, and coordinate workflows. | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| **[Lumhs-TimeTable-Portal](https://github.com/Mukhtar-x/Lumhs-TimeTable-Portal)** | Institutional scheduling portal designed for automated academic timetable allocation, faculty management, and tracking. | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| **[SilkShineWeb](https://github.com/Mukhtar-x/SilkShineWeb)** | Commercial service web layout optimized with responsive component architecture and conversion funnels. | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| **[SimpleWebApplicationFLASK](https://github.com/Mukhtar-x/SimpleWebApplicationFLASK)** | Lightweight web server implementing session auth, role-based access control (RBAC), and user community posting logic. | ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) |
-| **[BusinessWebProject](https://github.com/Mukhtar-x/BusinessWebProject)** | Corporate business frontend profile tailored for service presentation and client conversion tracking. | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **[CarWashWebsite](https://github.com/Mukhtar-x/CarWashWebsite)** | Service booking front-end application built for local automotive care and facility operations. | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **[Personal_Portfolio](https://github.com/Mukhtar-x/Personal_Portfolio)** | Interactive portfolio web interface showcasing professional background, technical competencies, and works. | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+<p align="center">
+  <img src="./assets/banner-fullstack.svg" width="100%" alt="Full-Stack Web Applications" />
+</p>
 
-### Client & Desktop Applications <img src="https://api.iconify.design/lucide:monitor.svg?color=%23FFFFFF" width="18" height="18" style="vertical-align: middle; margin-left: 6px;" />
+| Interface | Codebase | Architectural Domain | Core Stack |
+| :---: | :--- | :--- | :--- |
+| <a href="https://github.com/mukhtar-x/DevCollab"><img src="https://placehold.co/320x190/0D1117/A3A3A3?text=DevCollab" width="160" height="95" alt="DevCollab Preview" /></a> | <a href="https://github.com/mukhtar-x/DevCollab"><kbd>DevCollab</kbd></a> | **Collaboration Platform**<br>Ground-up full-stack environment built without AI scaffolding for strict state control. | `TypeScript`<br>`React`<br>`Node.js` |
+| <a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs"><img src="https://placehold.co/320x190/0D1117/A3A3A3?text=HMS+Portal" width="160" height="95" alt="HMS Preview" /></a> | <a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs"><kbd>HMS-NextJS</kbd></a> | **Healthcare Portal**<br>Dynamic medical record dispatch system featuring responsive patient-provider routing. | `Next.js`<br>`TypeScript`<br>`Tailwind` |
 
-| Repository | Details | Stack |
-|---|---|---|
-| **[RailwayManagement-OOP-GUI](https://github.com/Mukhtar-x/RailwayManagement-OOP-GUI)** | Object-oriented desktop GUI application managing complex railway schedules, bookings, and customer databases. | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) |
-| **[ArchiverAppSecret](https://github.com/Mukhtar-x/ArchiverAppSecret)** | Secure client utility designed for encrypted file archiving, compression, and credential management. | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| **[SilkShineAppClient](https://github.com/Mukhtar-x/SilkShineAppClient)** | Client-side interface application connecting core platform services directly to end users. | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **[TregoApp](https://github.com/Mukhtar-x/TregoApp)** | Task management and daily productivity tracking client application with modular components. | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **[CarWashApp](https://github.com/Mukhtar-x/CarWashApp)** | Management client application for scheduling appointments and tracking cleaning service orders. | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+<br>
 
-### Automation & Scripting <img src="https://api.iconify.design/lucide:cpu.svg?color=%23FFFFFF" width="18" height="18" style="vertical-align: middle; margin-left: 6px;" />
+<p align="center">
+  <img src="./assets/banner-apps.svg" width="100%" alt="Client Applications & Tools" />
+</p>
 
-| Repository | Details | Stack |
-|---|---|---|
-| **[n8n-flow-hub](https://github.com/Mukhtar-x/n8n-flow-hub)** | Custom programmatic webhook nodes built for multi-stage web scraping triggers and automated data orchestration. | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) `Maintained` |
-| **[LeadScrapers](https://github.com/Mukhtar-x/LeadScrapers)** | Automated web scraping scripts targeted at bulk data extraction and contact lead generation pipelines. | ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
-| **[Monitoring_Script](https://github.com/Mukhtar-x/Monitoring_Script)** | Background execution monitor tracking host system resource parameters, CPU usage, and alerting state changes. | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **[SpyX](https://github.com/Mukhtar-x/SpyX)** | Python utility script structured for event logging, process surveillance, and data tracking tasks. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| Interface | Codebase | Architectural Domain | Core Stack |
+| :---: | :--- | :--- | :--- |
+| <a href="https://github.com/mukhtar-x/WeatherApp"><img src="https://placehold.co/320x190/0D1117/A3A3A3?text=Weather+App" width="160" height="95" alt="WeatherApp Preview" /></a> | <a href="https://github.com/mukhtar-x/WeatherApp"><kbd>WeatherApp</kbd></a> | **Async Data Fetcher**<br>Dynamic client application fetching real-time weather metrics via asynchronous API endpoints. | `JavaScript`<br>`REST API` |
 
-### Low-Level Programming & Systems <img src="https://api.iconify.design/lucide:binary.svg?color=%23FFFFFF" width="18" height="18" style="vertical-align: middle; margin-left: 6px;" />
+<br>
 
-| Repository | Details | Stack |
-|---|---|---|
-| **[OS_ICECREAM_FACTORY](https://github.com/Mukhtar-x/OS_ICECREAM_FACTORY)** | Operating system process scheduling, resource allocation, and concurrency simulation model utilizing mutex/semaphore logic. | ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) |
-| **[SnakeGameAssembly](https://github.com/Mukhtar-x/SnakeGameAssembly)** | Classic arcade game engineered completely in low-level x86/emu assembly language with direct video memory manipulation. | ![Assembly](https://img.shields.io/badge/Assembly-00599C?style=flat-square&logo=assemblyscript&logoColor=white) |
-| **[DSA](https://github.com/Mukhtar-x/DSA)** | Comprehensive data structures and algorithmic implementations optimized for time and space complexity. | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) |
-| **[DSA_Hospital_Management](https://github.com/Mukhtar-x/DSA_Hospital_Management)** | Hospital record database engine utilizing custom data structures (trees, graphs, and custom indexing algorithms). | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) |
-| **[Railway_Management_System](https://github.com/Mukhtar-x/Railway_Management_System)** | Console-based railway booking and reservation backend utilizing procedural file management and structs. | ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) |
+<p align="center">
+  <img src="./assets/banner-scraping.svg" width="100%" alt="Data Extraction & Web Scraping" />
+</p>
 
-<img src="./divider.svg" width="100%" height="6" alt="" />
+| Interface | Codebase | Architectural Domain | Core Stack |
+| :---: | :--- | :--- | :--- |
+| <a href="https://github.com/mukhtar-x/LeadScrapers"><img src="https://placehold.co/320x190/0D1117/A3A3A3?text=LeadScrapers" width="160" height="95" alt="LeadScrapers Preview" /></a> | <a href="https://github.com/mukhtar-x/LeadScrapers"><kbd>LeadScrapers</kbd></a> | **DOM Parsing Pipeline**<br>High-efficiency DOM parser engineered for automated target data extraction and cleaning. | `JavaScript`<br>`DOM Parser` |
 
-## Metrics & Ecosystem <img src="https://api.iconify.design/lucide:bar-chart-3.svg?color=%23FFFFFF" width="20" height="20" style="vertical-align: middle; margin-left: 6px;" />
+<br>
+
+<p align="center">
+  <img src="./assets/banner-systems.svg" width="100%" alt="Systems & Low-Level Software" />
+</p>
+
+| Interface | Codebase | Architectural Domain | Core Stack |
+| :---: | :--- | :--- | :--- |
+| <a href="https://github.com/mukhtar-x/RailwayManagement-OOP-GUI"><img src="https://placehold.co/320x190/0D1117/A3A3A3?text=Railway+GUI" width="160" height="95" alt="Railway Management Preview" /></a> | <a href="https://github.com/mukhtar-x/RailwayManagement-OOP-GUI"><kbd>Railway-GUI</kbd></a> | **OOP Scheduling Engine**<br>Native memory management implementing dynamic graph routing and track assignments. | `C++`<br>`GUI Library` |
+| <a href="https://github.com/mukhtar-x/SnakeGameAssembly"><img src="https://placehold.co/320x190/0D1117/A3A3A3?text=x86+Snake" width="160" height="95" alt="x86 Snake Preview" /></a> | <a href="https://github.com/mukhtar-x/SnakeGameAssembly"><kbd>x86-Snake</kbd></a> | **Bare-Metal Runtime**<br>Register-level memory control and hardware interrupt handling for real-time grid execution. | `Assembly x86`<br>`Irvine32` |
+
+---
+
 
 <p align="center">
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Mukhtar-x&hide_border=true&background=000000&stroke=FFFFFF&ring=333333&fire=FFFFFF&currStreakNum=FFFFFF&currStreakLabel=A3A3A3&sideNums=FFFFFF&sideLabels=A3A3A3&dates=A3A3A3" alt="GitHub Streak" />
