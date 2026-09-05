@@ -43,7 +43,11 @@ def normalize_text(text):
 
 def fetch_repositories():
     url = f"https://api.github.com/users/{USERNAME}/repos"
-    headers = {"Accept": "application/vnd.github.v3+json"}
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": f"{USERNAME}-readme-updater",
+    }
     token = os.getenv("GITHUB_TOKEN")
     if token:
         headers["Authorization"] = f"token {token}"
@@ -97,8 +101,9 @@ def generate_table(repos, category):
         '<table width="100%" style="border:1px solid #30363d;border-radius:14px;border-collapse:separate;border-spacing:0;overflow:hidden">',
         '<thead><tr>',
         '<th align="left" width="24%">IMAGE</th>',
-        '<th align="left" width="34%">PROJECT</th>',
-        '<th align="left" width="27%">IMPACT</th>',
+        '<th align="left" width="25%">PROJECT</th>',
+        '<th align="left" width="36%">DESCRIPTION</th>',
+        '<th align="left" width="24%">IMPACT</th>',
         '<th align="left" width="15%">STACK</th>',
         '</tr></thead>',
         '<tbody>'
@@ -107,7 +112,8 @@ def generate_table(repos, category):
     for repo in repos:
         name = html_text(repo["name"])
         url = escape(repo["html_url"], quote=True)
-        desc = html_text(repo.get("description") or "No description provided.")
+        description = repo.get("description")
+        desc = html_text(description) if description else "No description provided."
         lang = html_text(repo.get("language") or "Code")
         updated = html_text(repo.get("updated_at", "")[:10] or "Unknown")
         image_url = f"https://opengraph.githubassets.com/1/{USERNAME}/{repo['name']}"
@@ -115,7 +121,8 @@ def generate_table(repos, category):
         rows.append(
             f'''<tr>
 <td valign="top" style="padding:14px"><a href="{url}"><img src="{image_url}" width="180" height="110" alt="{name} preview" /></a></td>
-<td valign="top" style="padding:14px"><h3><a href="{url}">{name}</a> <a href="{url}" title="View project" aria-label="View project">&#8599;</a></h3><p>{desc}</p></td>
+<td valign="top" style="padding:14px"><h3 style="font-size:1em;margin:0"><a href="{url}">{name}</a> <a href="{url}" title="View project" aria-label="View project">&#8599;</a></h3></td>
+<td valign="top" style="padding:14px">{desc}</td>
 <td valign="top" style="padding:14px">{importance}</td>
 <td valign="top" style="padding:14px"><code>{lang}</code><br><br><kbd>{updated}</kbd></td>
 </tr>'''
