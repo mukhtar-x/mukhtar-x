@@ -1,7 +1,7 @@
 import os
 import re
 from base64 import b64decode
-from html import escape
+from html import escape, unescape
 import requests
 
 USERNAME = "mukhtar-x"
@@ -94,6 +94,8 @@ def summarize_readme(readme, fallback):
         line = raw_line.strip()
         if not line or line.startswith("#") or line.startswith("```"):
             continue
+        line = re.sub(r"<!--.*?-->", "", line)
+        line = re.sub(r"<[^>]+>", "", line)
         if re.match(r"^!\[[^]]*\]\([^)]*\)$", line):
             continue
 
@@ -102,7 +104,7 @@ def summarize_readme(readme, fallback):
         line = re.sub(r"[*_`~]", "", line)
         line = re.sub(r"^[-*+]\s+", "", line)
         line = re.sub(r"^>\s*", "", line)
-        line = " ".join(line.split())
+        line = " ".join(unescape(line).split())
 
         if len(line) < 20 or line.lower().startswith(("built with", "contributors", "license:")):
             continue
