@@ -120,24 +120,12 @@
 <div style="overflow-x:auto;margin-top:0">
 <table width="100%" style="border:1px solid #30363d;border-radius:14px;border-collapse:separate;border-spacing:0;overflow:hidden">
 <thead><tr>
-<th align="left" width="22%">IMAGE</th>
-<th align="left" width="48%">PROJECT</th>
-<th align="left" width="20%">IMPACT</th>
-<th align="left" width="10%">STACK</th>
+<th align="left" width="24%">IMAGE</th>
+<th align="left" width="34%">PROJECT</th>
+<th align="left" width="27%">IMPACT</th>
+<th align="left" width="15%">STACK</th>
 </tr></thead>
 <tbody>
-<tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Automation-Outreach-Engine-N8N"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Automation-Outreach-Engine-N8N" width="180" height="110" alt="Automation-Outreach-Engine-N8N preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Automation-Outreach-Engine-N8N">Automation-Outreach-Engine-N8N</a> <a href="https://github.com/mukhtar-x/Automation-Outreach-Engine-N8N" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">An enterprise-grade, fully automated B2B lead generation and outreach pipeline built with n8n. This workflow replaces manual lead prospecting by automatically discovering targets via web search, scraping and validating email addresses, synthesizing hyper-personalized cold pitch emails using Gemini, dispatching...</p></td>
-<td valign="top" style="padding:14px">Reduces repetitive work and improves operational consistency.</td>
-<td valign="top" style="padding:14px"><code>Code</code><br><br><kbd>2026-09-05</kbd></td>
-</tr>
-<tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Socials-Monitoring-Script"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Socials-Monitoring-Script" width="180" height="110" alt="Socials-Monitoring-Script preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Socials-Monitoring-Script">Socials-Monitoring-Script</a> <a href="https://github.com/mukhtar-x/Socials-Monitoring-Script" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">This service periodically checks public Instagram profiles, downloads profile pictures by content hash, and stores only changed profile snapshots in SQLite. npx playwright install chromium Edit targets.json to change the monitored usernames. The file must contain an array of strings; leading @ characters and duplicate...</p></td>
-<td valign="top" style="padding:14px">Reduces repetitive work and improves operational consistency.</td>
-<td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2026-09-05</kbd></td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -151,42 +139,12 @@
 <div style="overflow-x:auto;margin-top:0">
 <table width="100%" style="border:1px solid #30363d;border-radius:14px;border-collapse:separate;border-spacing:0;overflow:hidden">
 <thead><tr>
-<th align="left" width="22%">IMAGE</th>
-<th align="left" width="48%">PROJECT</th>
-<th align="left" width="20%">IMPACT</th>
-<th align="left" width="10%">STACK</th>
+<th align="left" width="24%">IMAGE</th>
+<th align="left" width="34%">PROJECT</th>
+<th align="left" width="27%">IMPACT</th>
+<th align="left" width="15%">STACK</th>
 </tr></thead>
 <tbody>
-<tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Hospital-Management-System-Nextjs-2026" width="180" height="110" alt="Hospital-Management-System-Nextjs-2026 preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026">Hospital-Management-System-Nextjs-2026</a> <a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">A role-based hospital portal built with Next.js, TypeScript, PostgreSQL, and Tailwind CSS. Video placeholder: This section is reserved for the project walkthrough and feature demonstration. The README header uses the custom SVG mark at public/medcloud-mark.svg. MedCloud gives each hospital role a focused workspace:</p></td>
-<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
-<td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-05</kbd></td>
-</tr>
-<tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/DevCollab"><img src="https://opengraph.githubassets.com/1/mukhtar-x/DevCollab" width="180" height="110" alt="DevCollab preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/DevCollab">DevCollab</a> <a href="https://github.com/mukhtar-x/DevCollab" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">DevCollab is an enterprise-grade, full-stack collaborative project management platform engineered specifically for development teams. The platform relies on a decoupled, asynchronous state architecture on the frontend and a strict layered service repository design on the backend. Personal Workspaces: Endpoints...</p></td>
-<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
-<td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-05</kbd></td>
-</tr>
-<tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/SilkShine-Website"><img src="https://opengraph.githubassets.com/1/mukhtar-x/SilkShine-Website" width="180" height="110" alt="SilkShine-Website preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/SilkShine-Website">SilkShine-Website</a> <a href="https://github.com/mukhtar-x/SilkShine-Website" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">A modern, high-performance web application built with Next.js and styled with Tailwind CSS, optimized for deployment on Vercel. Framework: Next.js (App Router) Language: TypeScript Styling: Tailwind CSS with PostCSS</p></td>
-<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
-<td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-05</kbd></td>
-</tr>
-<tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Node_Initializer"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Node_Initializer" width="180" height="110" alt="Node_Initializer preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Node_Initializer">Node_Initializer</a> <a href="https://github.com/mukhtar-x/Node_Initializer" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">A production-ready backend boilerplate built with Node.js, Express, MongoDB, and Redis using a scalable Service–DAL (Data Access Layer) architecture. Designed for clean code, security, and maintainability, following OOP and layered architecture principles. 🔐 JWT Authentication with Rotation 🛡 Refresh Token Reuse...</p></td>
-<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
-<td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2026-03-10</kbd></td>
-</tr>
-<tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/SimpleWebApplicationFLASK"><img src="https://opengraph.githubassets.com/1/mukhtar-x/SimpleWebApplicationFLASK" width="180" height="110" alt="SimpleWebApplicationFLASK preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/SimpleWebApplicationFLASK">SimpleWebApplicationFLASK</a> <a href="https://github.com/mukhtar-x/SimpleWebApplicationFLASK" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">﻿# SimpleWebApplicationFLASK</p></td>
-<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
-<td valign="top" style="padding:14px"><code>Python</code><br><br><kbd>2026-02-19</kbd></td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -200,18 +158,12 @@
 <div style="overflow-x:auto;margin-top:0">
 <table width="100%" style="border:1px solid #30363d;border-radius:14px;border-collapse:separate;border-spacing:0;overflow:hidden">
 <thead><tr>
-<th align="left" width="22%">IMAGE</th>
-<th align="left" width="48%">PROJECT</th>
-<th align="left" width="20%">IMPACT</th>
-<th align="left" width="10%">STACK</th>
+<th align="left" width="24%">IMAGE</th>
+<th align="left" width="34%">PROJECT</th>
+<th align="left" width="27%">IMPACT</th>
+<th align="left" width="15%">STACK</th>
 </tr></thead>
 <tbody>
-<tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/WeatherApp"><img src="https://opengraph.githubassets.com/1/mukhtar-x/WeatherApp" width="180" height="110" alt="WeatherApp preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/WeatherApp">WeatherApp</a> <a href="https://github.com/mukhtar-x/WeatherApp" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">This is a new React Native project, bootstrapped using @react-native-community/cli. Note: Make sure you have completed the React Native - Environment Setup instructions till &quot;Creating a new application&quot; step, before proceeding. First, you will need to start Metro, the JavaScript bundler that ships with React Native....</p></td>
-<td valign="top" style="padding:14px">Makes useful software available through focused, accessible experiences.</td>
-<td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2024-06-20</kbd></td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -222,7 +174,18 @@
 </div>
 
 <!-- SCRAPING-START -->
-<p>No projects currently match the scraping category.</p>
+<div style="overflow-x:auto;margin-top:0">
+<table width="100%" style="border:1px solid #30363d;border-radius:14px;border-collapse:separate;border-spacing:0;overflow:hidden">
+<thead><tr>
+<th align="left" width="24%">IMAGE</th>
+<th align="left" width="34%">PROJECT</th>
+<th align="left" width="27%">IMPACT</th>
+<th align="left" width="15%">STACK</th>
+</tr></thead>
+<tbody>
+</tbody>
+</table>
+</div>
 <!-- SCRAPING-END -->
 <br>
 <div align="center" style="margin:0;padding:0">
@@ -233,36 +196,12 @@
 <div style="overflow-x:auto;margin-top:0">
 <table width="100%" style="border:1px solid #30363d;border-radius:14px;border-collapse:separate;border-spacing:0;overflow:hidden">
 <thead><tr>
-<th align="left" width="22%">IMAGE</th>
-<th align="left" width="48%">PROJECT</th>
-<th align="left" width="20%">IMPACT</th>
-<th align="left" width="10%">STACK</th>
+<th align="left" width="24%">IMAGE</th>
+<th align="left" width="34%">PROJECT</th>
+<th align="left" width="27%">IMPACT</th>
+<th align="left" width="15%">STACK</th>
 </tr></thead>
 <tbody>
-<tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Hospital-Management-System-DSA-2025" width="180" height="110" alt="Hospital-Management-System-DSA-2025 preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025">Hospital-Management-System-DSA-2025</a> <a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">Semester 4 Data Structures and Algorithms Project · C++ · 2025 A console-based hospital management system that turns real hospital workflows into practical data-structure operations. Algorithms and Complexity This repository contains my Semester 4 DSA project from 2025: a Hospital Management System written in C++.</p></td>
-<td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
-<td valign="top" style="padding:14px"><code>C++</code><br><br><kbd>2026-09-05</kbd></td>
-</tr>
-<tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/SnakeGameAssembly"><img src="https://opengraph.githubassets.com/1/mukhtar-x/SnakeGameAssembly" width="180" height="110" alt="SnakeGameAssembly preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/SnakeGameAssembly">SnakeGameAssembly</a> <a href="https://github.com/mukhtar-x/SnakeGameAssembly" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">Semester 4 Assembly Language Project · Irvine32 · 2025 A terminal Snake game written in x86 MASM assembly for Semester 4, Assembly Irvine, 2025. Game Rules and Mechanics This repository contains my Semester 4 Assembly Irvine project from 2025: a playable Snake game implemented with MASM and the Irvine32 library.</p></td>
-<td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
-<td valign="top" style="padding:14px"><code>Assembly</code><br><br><kbd>2026-09-05</kbd></td>
-</tr>
-<tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Railway-Management-OOP-GUI-2025"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Railway-Management-OOP-GUI-2025" width="180" height="110" alt="Railway-Management-OOP-GUI-2025 preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Railway-Management-OOP-GUI-2025">Railway-Management-OOP-GUI-2025</a> <a href="https://github.com/mukhtar-x/Railway-Management-OOP-GUI-2025" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">A Qt 5 desktop railway reservation application built with modern C++. A local desktop workflow for signing in, creating accounts, browsing trains, booking tickets, and managing cancellations through a Qt GUI. Security and Limitations Railway Management System is a C++ desktop application built with Qt Widgets. It...</p></td>
-<td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
-<td valign="top" style="padding:14px"><code>C++</code><br><br><kbd>2026-09-05</kbd></td>
-</tr>
-<tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Railway-Management-System-CLI-2024"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Railway-Management-System-CLI-2024" width="180" height="110" alt="Railway-Management-System-CLI-2024 preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Railway-Management-System-CLI-2024">Railway-Management-System-CLI-2024</a> <a href="https://github.com/mukhtar-x/Railway-Management-System-CLI-2024" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">A menu-driven railway reservation system written in C. A small local command-line application for managing trains, accounts, bookings, and cancellations using plain-text storage. Security and Limitations Railway Management System CLI provides separate workflows for railway administrators and passengers. Users interact...</p></td>
-<td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
-<td valign="top" style="padding:14px"><code>C</code><br><br><kbd>2026-09-05</kbd></td>
-</tr>
 </tbody>
 </table>
 </div>
