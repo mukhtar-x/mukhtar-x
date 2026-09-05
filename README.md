@@ -158,12 +158,6 @@
 <td valign="top" style="padding:14px"><code>Python</code><br><br><kbd>2026-09-05</kbd></td>
 </tr>
 <tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/UniSchoolApp"><img src="https://opengraph.githubassets.com/1/mukhtar-x/UniSchoolApp" width="180" height="110" alt="UniSchoolApp preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/UniSchoolApp">UniSchoolApp</a> <a href="https://github.com/mukhtar-x/UniSchoolApp" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">Uni-School is a specialized educational and student guidance mobile application developed by Rogic in Zambia. Built using React Native and bootstrapped via @react-native-community/cli, the platform is designed to help students research tertiary education options, institutional pathways, and career choices across...</p></td>
-<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
-<td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2026-09-05</kbd></td>
-</tr>
-<tr>
 <td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Hospital-Management-System-Nextjs-2026" width="180" height="110" alt="Hospital-Management-System-Nextjs-2026 preview" /></a></td>
 <td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026">Hospital-Management-System-Nextjs-2026</a> <a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">A role-based hospital portal built with Next.js, TypeScript, PostgreSQL, and Tailwind CSS. Video placeholder: This section is reserved for the project walkthrough and feature demonstration. The README header uses the custom SVG mark at public/medcloud-mark.svg. MedCloud gives each hospital role a focused workspace:</p></td>
 <td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
@@ -218,12 +212,6 @@
 <th align="left" width="10%">STACK</th>
 </tr></thead>
 <tbody>
-<tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/TregoApp"><img src="https://opengraph.githubassets.com/1/mukhtar-x/TregoApp" width="180" height="110" alt="TregoApp preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/TregoApp">TregoApp</a> <a href="https://github.com/mukhtar-x/TregoApp" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">Trego is a modern cross-platform mobile application built with React Native, bootstrapped using @react-native-community/cli. Developed by Hervin, Trego delivers an optimized, high-performance user experience for Android and iOS platforms. 4. Environment Setup 5. Installation &amp; Getting Started Step 2: Build and Run...</p></td>
-<td valign="top" style="padding:14px">Makes useful software available through focused, accessible experiences.</td>
-<td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2026-09-05</kbd></td>
-</tr>
 <tr>
 <td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/SilkShine-Management-Android-App"><img src="https://opengraph.githubassets.com/1/mukhtar-x/SilkShine-Management-Android-App" width="180" height="110" alt="SilkShine-Management-Android-App preview" /></a></td>
 <td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/SilkShine-Management-Android-App">SilkShine-Management-Android-App</a> <a href="https://github.com/mukhtar-x/SilkShine-Management-Android-App" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">A comprehensive React Native application built with Expo designed specifically for managing inventory, tracking stock, handling product calculations, and supporting localized themes and languages for a silkshine oil selling business. Stock Management: Track real-time inventory levels, monitor stock updates, and...</p></td>
