@@ -174,6 +174,18 @@
 </div>
 
 <!-- SCRAPING-START -->
+<div style="overflow-x:auto;margin-top:0">
+<table width="100%" style="border:1px solid #30363d;border-radius:14px;border-collapse:separate;border-spacing:0;overflow:hidden">
+<thead><tr>
+<th align="left" width="24%">IMAGE</th>
+<th align="left" width="34%">PROJECT</th>
+<th align="left" width="27%">IMPACT</th>
+<th align="left" width="15%">STACK</th>
+</tr></thead>
+<tbody>
+</tbody>
+</table>
+</div>
 <!-- SCRAPING-END -->
 <br>
 <div align="center" style="margin:0;padding:0">
