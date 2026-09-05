@@ -158,8 +158,8 @@
 <td valign="top" style="padding:14px"><code>Python</code><br><br><kbd>2026-09-05</kbd></td>
 </tr>
 <tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/SilkShine-Management-Android-App"><img src="https://opengraph.githubassets.com/1/mukhtar-x/SilkShine-Management-Android-App" width="180" height="110" alt="SilkShine-Management-Android-App preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/SilkShine-Management-Android-App">SilkShine-Management-Android-App</a> <a href="https://github.com/mukhtar-x/SilkShine-Management-Android-App" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">A comprehensive React Native application built with Expo designed specifically for managing inventory, tracking stock, handling product calculations, and supporting localized themes and languages for a silkshine oil selling business. Stock Management: Track real-time inventory levels, monitor stock updates, and...</p></td>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/UniSchoolApp"><img src="https://opengraph.githubassets.com/1/mukhtar-x/UniSchoolApp" width="180" height="110" alt="UniSchoolApp preview" /></a></td>
+<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/UniSchoolApp">UniSchoolApp</a> <a href="https://github.com/mukhtar-x/UniSchoolApp" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">Uni-School is a specialized educational and student guidance mobile application developed by Rogic in Zambia. Built using React Native and bootstrapped via @react-native-community/cli, the platform is designed to help students research tertiary education options, institutional pathways, and career choices across...</p></td>
 <td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
 <td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2026-09-05</kbd></td>
 </tr>
@@ -168,6 +168,12 @@
 <td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026">Hospital-Management-System-Nextjs-2026</a> <a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">A role-based hospital portal built with Next.js, TypeScript, PostgreSQL, and Tailwind CSS. Video placeholder: This section is reserved for the project walkthrough and feature demonstration. The README header uses the custom SVG mark at public/medcloud-mark.svg. MedCloud gives each hospital role a focused workspace:</p></td>
 <td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
 <td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Hospital-Management-System-DSA-2025" width="180" height="110" alt="Hospital-Management-System-DSA-2025 preview" /></a></td>
+<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025">Hospital-Management-System-DSA-2025</a> <a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">Semester 4 Data Structures and Algorithms Project · C++ · 2025 A console-based hospital management system that turns real hospital workflows into practical data-structure operations. Algorithms and Complexity This repository contains my Semester 4 DSA project from 2025: a Hospital Management System written in C++.</p></td>
+<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
+<td valign="top" style="padding:14px"><code>C++</code><br><br><kbd>2026-09-05</kbd></td>
 </tr>
 <tr>
 <td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/DevCollab"><img src="https://opengraph.githubassets.com/1/mukhtar-x/DevCollab" width="180" height="110" alt="DevCollab preview" /></a></td>
@@ -180,6 +186,12 @@
 <td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/SilkShine-Website">SilkShine-Website</a> <a href="https://github.com/mukhtar-x/SilkShine-Website" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">A modern, high-performance web application built with Next.js and styled with Tailwind CSS, optimized for deployment on Vercel. Framework: Next.js (App Router) Language: TypeScript Styling: Tailwind CSS with PostCSS</p></td>
 <td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
 <td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Portfolio"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Portfolio" width="180" height="110" alt="Portfolio preview" /></a></td>
+<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Portfolio">Portfolio</a> <a href="https://github.com/mukhtar-x/Portfolio" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. Currently, two official plugins are available: @vitejs/plugin-react uses Babel for Fast Refresh @vitejs/plugin-react-swc uses SWC for Fast Refresh</p></td>
+<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
+<td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2026-09-05</kbd></td>
 </tr>
 <tr>
 <td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Node_Initializer"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Node_Initializer" width="180" height="110" alt="Node_Initializer preview" /></a></td>
@@ -206,6 +218,18 @@
 <th align="left" width="10%">STACK</th>
 </tr></thead>
 <tbody>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/TregoApp"><img src="https://opengraph.githubassets.com/1/mukhtar-x/TregoApp" width="180" height="110" alt="TregoApp preview" /></a></td>
+<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/TregoApp">TregoApp</a> <a href="https://github.com/mukhtar-x/TregoApp" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">Trego is a modern cross-platform mobile application built with React Native, bootstrapped using @react-native-community/cli. Developed by Hervin, Trego delivers an optimized, high-performance user experience for Android and iOS platforms. 4. Environment Setup 5. Installation &amp; Getting Started Step 2: Build and Run...</p></td>
+<td valign="top" style="padding:14px">Makes useful software available through focused, accessible experiences.</td>
+<td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/SilkShine-Management-Android-App"><img src="https://opengraph.githubassets.com/1/mukhtar-x/SilkShine-Management-Android-App" width="180" height="110" alt="SilkShine-Management-Android-App preview" /></a></td>
+<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/SilkShine-Management-Android-App">SilkShine-Management-Android-App</a> <a href="https://github.com/mukhtar-x/SilkShine-Management-Android-App" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">A comprehensive React Native application built with Expo designed specifically for managing inventory, tracking stock, handling product calculations, and supporting localized themes and languages for a silkshine oil selling business. Stock Management: Track real-time inventory levels, monitor stock updates, and...</p></td>
+<td valign="top" style="padding:14px">Makes useful software available through focused, accessible experiences.</td>
+<td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
 <tr>
 <td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/WeatherApp"><img src="https://opengraph.githubassets.com/1/mukhtar-x/WeatherApp" width="180" height="110" alt="WeatherApp preview" /></a></td>
 <td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/WeatherApp">WeatherApp</a> <a href="https://github.com/mukhtar-x/WeatherApp" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">This is a new React Native project, bootstrapped using @react-native-community/cli. Note: Make sure you have completed the React Native - Environment Setup instructions till &quot;Creating a new application&quot; step, before proceeding. First, you will need to start Metro, the JavaScript bundler that ships with React Native....</p></td>
@@ -257,8 +281,20 @@
 </tr></thead>
 <tbody>
 <tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Hospital-Management-System-DSA-2025" width="180" height="110" alt="Hospital-Management-System-DSA-2025 preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025">Hospital-Management-System-DSA-2025</a> <a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">Semester 4 Data Structures and Algorithms Project · C++ · 2025 A console-based hospital management system that turns real hospital workflows into practical data-structure operations. Algorithms and Complexity This repository contains my Semester 4 DSA project from 2025: a Hospital Management System written in C++.</p></td>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/SpyX"><img src="https://opengraph.githubassets.com/1/mukhtar-x/SpyX" width="180" height="110" alt="SpyX preview" /></a></td>
+<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/SpyX">SpyX</a> <a href="https://github.com/mukhtar-x/SpyX" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">SpyX is a small asynchronous command-line utility for checking whether user-supplied identifiers appear to resolve on a configurable set of public web pages. It accepts a base username or name and can optionally generate email-domain variants and check one supplied phone value. Use responsibly. Run SpyX only against...</p></td>
+<td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
+<td valign="top" style="padding:14px"><code>Python</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Icecream-Factory-Operating-System"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Icecream-Factory-Operating-System" width="180" height="110" alt="Icecream-Factory-Operating-System preview" /></a></td>
+<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Icecream-Factory-Operating-System">Icecream-Factory-Operating-System</a> <a href="https://github.com/mukhtar-x/Icecream-Factory-Operating-System" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">A C and POSIX threads simulation of an ice cream production line with a live raylib diagnostic dashboard. Open the main demonstration video An additional recording is available in second.webm. This project models a factory pipeline with three stages:</p></td>
+<td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
+<td valign="top" style="padding:14px"><code>C</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/DSA-Documents-2025-Learning"><img src="https://opengraph.githubassets.com/1/mukhtar-x/DSA-Documents-2025-Learning" width="180" height="110" alt="DSA-Documents-2025-Learning preview" /></a></td>
+<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/DSA-Documents-2025-Learning">DSA-Documents-2025-Learning</a> <a href="https://github.com/mukhtar-x/DSA-Documents-2025-Learning" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">No description provided.</p></td>
 <td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
 <td valign="top" style="padding:14px"><code>C++</code><br><br><kbd>2026-09-05</kbd></td>
 </tr>
