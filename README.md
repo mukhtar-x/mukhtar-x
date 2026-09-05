@@ -21,13 +21,13 @@
   </a>
 </p>
 
-<img src="./divider.svg" width="100%" height="6" alt="" />
+<img src="./assets/divider.svg" width="100%" height="6" alt="" />
 
 ## Engineering Philosophy
 
 > *"Simplicity is a prerequisite for reliability. In low-latency systems and secure network design, every layer added is a potential vulnerability introduced."*
 
-<img src="./divider.svg" width="100%" height="6" alt="" />
+<img src="./assets/divider.svg" width="100%" height="6" alt="" />
 
 ## Current Focus & System Trajectory
 
@@ -35,7 +35,7 @@
 - **Threat Actor Analysis** — Analyzing cybercriminal behavioral methodologies, operational security flaws, and execution patterns.
 - **Low-Latency Architecture** — Building resilient backend microservices and high-throughput automated execution loops.
 
-<img src="./divider.svg" width="100%" height="6" alt="" />
+<img src="./assets/divider.svg" width="100%" height="6" alt="" />
 
 ## Tech Stack & Core Competencies
 
@@ -108,7 +108,15 @@
   </table>
 </div>
 
-<img src="./divider.svg" width="100%" height="6" alt="" />
+<img src="./assets/divider.svg" width="100%" height="6" alt="" />
+
+## Featured Projects
+
+| Project | What it demonstrates |
+| --- | --- |
+| [Hospital Management System](https://github.com/mukhtar-x/Hospital-Management-System-Nextjs) | Role-based healthcare workflows, PostgreSQL schema design, JWT authentication, and Next.js dashboards |
+| [OS Ice Cream Factory](https://github.com/mukhtar-x/OS_ICECREAM_FACTORY) | POSIX threads, mutexes, semaphores, pipeline synchronization, and a raylib monitoring dashboard |
+| [Snake Game Assembly](https://github.com/mukhtar-x/SnakeGameAssembly) | MASM/Irvine32 console rendering, keyboard input, collision detection, and game-state logic |
 
 ## Codebase Catalog & Systems Registry
 
