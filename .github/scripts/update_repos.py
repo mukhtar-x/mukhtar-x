@@ -66,7 +66,7 @@ def fetch_repositories():
         batch = response.json()
         repositories.extend(batch)
         if len(batch) < 100:
-            return repositories
+            return repositories, headers
         page += 1
 
 def markdown_text(value):
@@ -176,7 +176,7 @@ def update_readme():
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
 
-    all_repos = fetch_repositories()
+    all_repos, headers = fetch_repositories()
     user_repos = [r for r in all_repos if not r.get("fork") and r["name"].lower() != USERNAME.lower()]
 
     # Track processed repositories to prevent category duplication
