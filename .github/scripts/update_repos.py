@@ -1,5 +1,6 @@
 import os
 import re
+from html import escape
 import requests
 
 USERNAME = "mukhtar-x"
@@ -14,48 +15,113 @@ CATEGORIES = {
     "SYSTEMS": ["assembly", "cpp", "cplusplus", "lowlevel", "gui", "cli", "snake", "railway", "os_"]
 }
 
+CATEGORY_DETAILS = {
+    "AUTOMATION": {
+        "domain": "Automation & workflow engineering",
+        "importance": "Reduces repetitive work and improves operational consistency."
+    },
+    "FULLSTACK": {
+        "domain": "Full-stack product engineering",
+        "importance": "Connects user experience, business logic, and data into usable systems."
+    },
+    "MOBILE": {
+        "domain": "Mobile application development",
+        "importance": "Makes useful software available through focused, accessible experiences."
+    },
+    "SCRAPING": {
+        "domain": "Data extraction & research tooling",
+        "importance": "Turns scattered web information into structured, actionable data."
+    },
+    "SYSTEMS": {
+        "domain": "Systems & low-level engineering",
+        "importance": "Builds understanding of performance, concurrency, architecture, and fundamentals."
+    }
+}
+
 def normalize_text(text):
     return re.sub(r'[^a-zA-Z0-9]', '', text).lower() if text else ""
 
 def fetch_repositories():
-    url = f"https://api.github.com/users/{USERNAME}/repos?sort=updated&per_page=100"
+    url = f"https://api.github.com/users/{USERNAME}/repos"
     headers = {"Accept": "application/vnd.github.v3+json"}
     token = os.getenv("GITHUB_TOKEN")
     if token:
         headers["Authorization"] = f"token {token}"
 
-    response = requests.get(url, headers=headers)
-    if response.status_code != 200:
-        raise Exception(f"Failed to fetch repos: {response.status_code}")
-    return response.json()
+    repositories = []
+    page = 1
+    while True:
+        response = requests.get(
+            url,
+            headers=headers,
+            params={"sort": "updated", "per_page": 100, "page": page},
+            timeout=20,
+        )
+        response.raise_for_status()
+        batch = response.json()
+        repositories.extend(batch)
+        if len(batch) < 100:
+            return repositories
+        page += 1
 
-def generate_table(repos):
+def markdown_text(value):
+    return " ".join(str(value or "").split()).replace("|", "\\|")
+
+def html_text(value):
+    return escape(" ".join(str(value or "").split()))
+
+def repository_matches(repo, keywords):
+    normalized_keywords = [normalize_text(keyword) for keyword in keywords]
+    normalized_name = normalize_text(repo.get("name"))
+
+    if any(keyword and keyword in normalized_name for keyword in normalized_keywords):
+        return True
+
+    searchable_fields = [repo.get("description"), repo.get("homepage")]
+    searchable_fields.extend(repo.get("topics", []))
+    tokens = {
+        normalize_text(token)
+        for field in searchable_fields
+        for token in re.findall(r"[A-Za-z0-9]+", field or "")
+    }
+    return any(keyword in tokens for keyword in normalized_keywords if keyword)
+
+def generate_table(repos, category):
     if not repos:
         return ""
-        
+
+    category_detail = CATEGORY_DETAILS[category]
+    importance = html_text(category_detail["importance"])
     rows = [
-        "| Interface | Codebase | Architectural Domain | Core Stack |",
-        "| :---: | :--- | :--- | :--- |"
+        '<div style="overflow-x:auto;margin-top:0">',
+        '<table width="100%" style="border:1px solid #30363d;border-radius:14px;border-collapse:separate;border-spacing:0;overflow:hidden">',
+        '<thead><tr>',
+        '<th align="left" width="24%">IMAGE</th>',
+        '<th align="left" width="34%">PROJECT</th>',
+        '<th align="left" width="27%">IMPACT</th>',
+        '<th align="left" width="15%">STACK</th>',
+        '</tr></thead>',
+        '<tbody>'
     ]
-    
+
     for repo in repos:
-        name = repo["name"]
-        url = repo["html_url"]
-        desc = repo.get("description") or "Automated project repository."
-        lang = repo.get("language") or "Code"
-        
-        # Uses crisp, uniform dark background (#0d1117) with bold white text (#ffffff)
-        img_url = f"https://placehold.co/600x350/0d1117/ffffff.png?text={name}"
-        
-        row = (
-            f'| <a href="{url}"><img src="{img_url}" '
-            f'width="160" height="95" alt="{name} Preview" /></a> '
-            f'| <a href="{url}"><kbd>{name}</kbd></a> '
-            f'| **{name}**<br>{desc} '
-            f'| `{lang}` |'
+        name = html_text(repo["name"])
+        url = escape(repo["html_url"], quote=True)
+        desc = html_text(repo.get("description") or "No description provided.")
+        lang = html_text(repo.get("language") or "Code")
+        updated = html_text(repo.get("updated_at", "")[:10] or "Unknown")
+        image_url = f"https://opengraph.githubassets.com/1/{USERNAME}/{repo['name']}"
+
+        rows.append(
+            f'''<tr>
+<td valign="top" style="padding:14px"><a href="{url}"><img src="{image_url}" width="180" height="110" alt="{name} preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="{url}">{name}</a> <a href="{url}" title="View project" aria-label="View project">&#8599;</a></h3><p>{desc}</p></td>
+<td valign="top" style="padding:14px">{importance}</td>
+<td valign="top" style="padding:14px"><code>{lang}</code><br><br><kbd>{updated}</kbd></td>
+</tr>'''
         )
-        rows.append(row)
-        
+
+    rows.extend(['</tbody>', '</table>', '</div>'])
     return "\n".join(rows)
     
 def update_readme():
@@ -70,33 +136,31 @@ def update_readme():
 
     for cat_name, keywords in CATEGORIES.items():
         matched_repos = []
-        normalized_keywords = [normalize_text(kw) for kw in keywords]
 
         for r in user_repos:
             repo_id = r["id"]
             if repo_id in assigned_repos:
                 continue
 
-            name = normalize_text(r.get("name"))
-            desc = normalize_text(r.get("description"))
-            homepage = normalize_text(r.get("homepage"))
-            topics = normalize_text("".join(r.get("topics", [])))
-
-            search_blob = name + desc + homepage + topics
-
-            if any(kw in search_blob for kw in normalized_keywords if kw):
+            if repository_matches(r, keywords):
                 matched_repos.append(r)
                 assigned_repos.add(repo_id)
 
-        if matched_repos:
-            table_md = generate_table(matched_repos)
-            pattern = rf"(<!-- {cat_name}-START -->)(.*?)(<!-- {cat_name}-END -->)"
-            
-            if re.search(pattern, content, flags=re.DOTALL):
-                content = re.sub(pattern, f"\\1\n{table_md}\n\\3", content, flags=re.DOTALL)
-                print(f"SUCCESS: Injected {cat_name} table into README.md")
-            else:
-                print(f"WARNING: Tags <!-- {cat_name}-START --> and <!-- {cat_name}-END --> NOT found in README.md!")
+        pattern = rf"(<!-- {cat_name}-START -->)(.*?)(<!-- {cat_name}-END -->)"
+
+        if re.search(pattern, content, flags=re.DOTALL):
+            section_content = generate_table(matched_repos, cat_name)
+            if not section_content:
+                section_content = f"<p>No projects currently match the {cat_name.lower()} category.</p>"
+            content = re.sub(
+                pattern,
+                lambda match: f"{match.group(1)}\n{section_content}\n{match.group(3)}",
+                content,
+                flags=re.DOTALL,
+            )
+            print(f"SUCCESS: Injected {cat_name} table into README.md")
+        else:
+            print(f"WARNING: Tags <!-- {cat_name}-START --> and <!-- {cat_name}-END --> NOT found in README.md!")
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(content)
