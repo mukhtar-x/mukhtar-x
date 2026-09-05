@@ -117,10 +117,30 @@
 </div>
 
 <!-- AUTOMATION-START -->
-| Interface | Codebase | Architectural Domain | Core Stack |
-| :---: | :--- | :--- | :--- |
-| <a href="https://github.com/mukhtar-x/Automation-Outreach-Engine-N8N"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=Automation-Outreach-Engine-N8N" width="160" height="95" alt="Automation-Outreach-Engine-N8N Preview" /></a> | <a href="https://github.com/mukhtar-x/Automation-Outreach-Engine-N8N"><kbd>Automation-Outreach-Engine-N8N</kbd></a> | **Automation-Outreach-Engine-N8N**<br>Automated project repository. | `Code` |
-| <a href="https://github.com/mukhtar-x/Socials-Monitoring-Script"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=Socials-Monitoring-Script" width="160" height="95" alt="Socials-Monitoring-Script Preview" /></a> | <a href="https://github.com/mukhtar-x/Socials-Monitoring-Script"><kbd>Socials-Monitoring-Script</kbd></a> | **Socials-Monitoring-Script**<br>Automated project repository. | `JavaScript` |
+<div style="overflow-x:auto;margin-top:0">
+<table width="100%" style="border:1px solid #30363d;border-radius:14px;border-collapse:separate;border-spacing:0;overflow:hidden">
+<thead><tr>
+<th align="left" width="24%">IMAGE</th>
+<th align="left" width="34%">PROJECT</th>
+<th align="left" width="27%">IMPACT</th>
+<th align="left" width="15%">STACK</th>
+</tr></thead>
+<tbody>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Automation-Outreach-Engine-N8N"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Automation-Outreach-Engine-N8N" width="180" height="110" alt="Automation-Outreach-Engine-N8N preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/Automation-Outreach-Engine-N8N">Automation-Outreach-Engine-N8N</a> <a href="https://github.com/mukhtar-x/Automation-Outreach-Engine-N8N" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Reduces repetitive work and improves operational consistency.</td>
+<td valign="top" style="padding:14px"><code>Code</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Socials-Monitoring-Script"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Socials-Monitoring-Script" width="180" height="110" alt="Socials-Monitoring-Script preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/Socials-Monitoring-Script">Socials-Monitoring-Script</a> <a href="https://github.com/mukhtar-x/Socials-Monitoring-Script" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Reduces repetitive work and improves operational consistency.</td>
+<td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+</tbody>
+</table>
+</div>
 <!-- AUTOMATION-END -->
 <br>
 <div align="center" style="margin:0;padding:0">
@@ -128,13 +148,48 @@
 </div>
 
 <!-- FULLSTACK-START -->
-| Interface | Codebase | Architectural Domain | Core Stack |
-| :---: | :--- | :--- | :--- |
-| <a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=Hospital-Management-System-Nextjs-2026" width="160" height="95" alt="Hospital-Management-System-Nextjs-2026 Preview" /></a> | <a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026"><kbd>Hospital-Management-System-Nextjs-2026</kbd></a> | **Hospital-Management-System-Nextjs-2026**<br>Automated project repository. | `TypeScript` |
-| <a href="https://github.com/mukhtar-x/DevCollab"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=DevCollab" width="160" height="95" alt="DevCollab Preview" /></a> | <a href="https://github.com/mukhtar-x/DevCollab"><kbd>DevCollab</kbd></a> | **DevCollab**<br>Automated project repository. | `TypeScript` |
-| <a href="https://github.com/mukhtar-x/SilkShine-Website"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=SilkShine-Website" width="160" height="95" alt="SilkShine-Website Preview" /></a> | <a href="https://github.com/mukhtar-x/SilkShine-Website"><kbd>SilkShine-Website</kbd></a> | **SilkShine-Website**<br>Automated project repository. | `TypeScript` |
-| <a href="https://github.com/mukhtar-x/Node_Initializer"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=Node_Initializer" width="160" height="95" alt="Node_Initializer Preview" /></a> | <a href="https://github.com/mukhtar-x/Node_Initializer"><kbd>Node_Initializer</kbd></a> | **Node_Initializer**<br>Automated project repository. | `JavaScript` |
-| <a href="https://github.com/mukhtar-x/SimpleWebApplicationFLASK"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=SimpleWebApplicationFLASK" width="160" height="95" alt="SimpleWebApplicationFLASK Preview" /></a> | <a href="https://github.com/mukhtar-x/SimpleWebApplicationFLASK"><kbd>SimpleWebApplicationFLASK</kbd></a> | **SimpleWebApplicationFLASK**<br>Simple auth using session, rending html with flask while providing Api Endpoints, it has RBAC user admin can post in community and assign roles to user for viewing, editing and all. | `Python` |
+<div style="overflow-x:auto;margin-top:0">
+<table width="100%" style="border:1px solid #30363d;border-radius:14px;border-collapse:separate;border-spacing:0;overflow:hidden">
+<thead><tr>
+<th align="left" width="24%">IMAGE</th>
+<th align="left" width="34%">PROJECT</th>
+<th align="left" width="27%">IMPACT</th>
+<th align="left" width="15%">STACK</th>
+</tr></thead>
+<tbody>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Hospital-Management-System-Nextjs-2026" width="180" height="110" alt="Hospital-Management-System-Nextjs-2026 preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026">Hospital-Management-System-Nextjs-2026</a> <a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
+<td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/DevCollab"><img src="https://opengraph.githubassets.com/1/mukhtar-x/DevCollab" width="180" height="110" alt="DevCollab preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/DevCollab">DevCollab</a> <a href="https://github.com/mukhtar-x/DevCollab" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
+<td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/SilkShine-Website"><img src="https://opengraph.githubassets.com/1/mukhtar-x/SilkShine-Website" width="180" height="110" alt="SilkShine-Website preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/SilkShine-Website">SilkShine-Website</a> <a href="https://github.com/mukhtar-x/SilkShine-Website" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
+<td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Node_Initializer"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Node_Initializer" width="180" height="110" alt="Node_Initializer preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/Node_Initializer">Node_Initializer</a> <a href="https://github.com/mukhtar-x/Node_Initializer" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
+<td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2026-03-10</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/SimpleWebApplicationFLASK"><img src="https://opengraph.githubassets.com/1/mukhtar-x/SimpleWebApplicationFLASK" width="180" height="110" alt="SimpleWebApplicationFLASK preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/SimpleWebApplicationFLASK">SimpleWebApplicationFLASK</a> <a href="https://github.com/mukhtar-x/SimpleWebApplicationFLASK" title="View project" aria-label="View project">&#8599;</a></h3><p>Simple auth using session, rending html with flask while providing Api Endpoints, it has RBAC user admin can post in community and assign roles to user for viewing, editing and all.</p></td>
+<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
+<td valign="top" style="padding:14px"><code>Python</code><br><br><kbd>2026-02-19</kbd></td>
+</tr>
+</tbody>
+</table>
+</div>
 <!-- FULLSTACK-END -->
 <br>
 <div align="center" style="margin:0;padding:0">
@@ -142,9 +197,24 @@
 </div>
 
 <!-- MOBILE-START -->
-| Interface | Codebase | Architectural Domain | Core Stack |
-| :---: | :--- | :--- | :--- |
-| <a href="https://github.com/mukhtar-x/WeatherApp"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=WeatherApp" width="160" height="95" alt="WeatherApp Preview" /></a> | <a href="https://github.com/mukhtar-x/WeatherApp"><kbd>WeatherApp</kbd></a> | **WeatherApp**<br>Automated project repository. | `JavaScript` |
+<div style="overflow-x:auto;margin-top:0">
+<table width="100%" style="border:1px solid #30363d;border-radius:14px;border-collapse:separate;border-spacing:0;overflow:hidden">
+<thead><tr>
+<th align="left" width="24%">IMAGE</th>
+<th align="left" width="34%">PROJECT</th>
+<th align="left" width="27%">IMPACT</th>
+<th align="left" width="15%">STACK</th>
+</tr></thead>
+<tbody>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/WeatherApp"><img src="https://opengraph.githubassets.com/1/mukhtar-x/WeatherApp" width="180" height="110" alt="WeatherApp preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/WeatherApp">WeatherApp</a> <a href="https://github.com/mukhtar-x/WeatherApp" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Makes useful software available through focused, accessible experiences.</td>
+<td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2024-06-20</kbd></td>
+</tr>
+</tbody>
+</table>
+</div>
 <!-- MOBILE-END -->
 <br>
 <div align="center" style="margin:0;padding:0">
@@ -160,13 +230,42 @@
 </div>
 
 <!-- SYSTEMS-START -->
-| Interface | Codebase | Architectural Domain | Core Stack |
-| :---: | :--- | :--- | :--- |
-| <a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=Hospital-Management-System-DSA-2025" width="160" height="95" alt="Hospital-Management-System-DSA-2025 Preview" /></a> | <a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025"><kbd>Hospital-Management-System-DSA-2025</kbd></a> | **Hospital-Management-System-DSA-2025**<br>Automated project repository. | `C++` |
-| <a href="https://github.com/mukhtar-x/SnakeGameAssembly"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=SnakeGameAssembly" width="160" height="95" alt="SnakeGameAssembly Preview" /></a> | <a href="https://github.com/mukhtar-x/SnakeGameAssembly"><kbd>SnakeGameAssembly</kbd></a> | **SnakeGameAssembly**<br>Automated project repository. | `Assembly` |
-| <a href="https://github.com/mukhtar-x/Railway-Management-OOP-GUI-2025"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=Railway-Management-OOP-GUI-2025" width="160" height="95" alt="Railway-Management-OOP-GUI-2025 Preview" /></a> | <a href="https://github.com/mukhtar-x/Railway-Management-OOP-GUI-2025"><kbd>Railway-Management-OOP-GUI-2025</kbd></a> | **Railway-Management-OOP-GUI-2025**<br>Automated project repository. | `C++` |
-| <a href="https://github.com/mukhtar-x/Railway-Management-System-CLI-2024"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=Railway-Management-System-CLI-2024" width="160" height="95" alt="Railway-Management-System-CLI-2024 Preview" /></a> | <a href="https://github.com/mukhtar-x/Railway-Management-System-CLI-2024"><kbd>Railway-Management-System-CLI-2024</kbd></a> | **Railway-Management-System-CLI-2024**<br>Automated project repository. | `C` |
-| <a href="https://github.com/mukhtar-x/Volumeter"><img src="https://placehold.co/600x350/0d1117/ffffff.png?text=Volumeter" width="160" height="95" alt="Volumeter Preview" /></a> | <a href="https://github.com/mukhtar-x/Volumeter"><kbd>Volumeter</kbd></a> | **Volumeter**<br>hello folks, here I come with a new application of calculating Volume...for those who don't want to cram the formulas or want answer with ease...so go on | `JavaScript` |
+<div style="overflow-x:auto;margin-top:0">
+<table width="100%" style="border:1px solid #30363d;border-radius:14px;border-collapse:separate;border-spacing:0;overflow:hidden">
+<thead><tr>
+<th align="left" width="24%">IMAGE</th>
+<th align="left" width="34%">PROJECT</th>
+<th align="left" width="27%">IMPACT</th>
+<th align="left" width="15%">STACK</th>
+</tr></thead>
+<tbody>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Hospital-Management-System-DSA-2025" width="180" height="110" alt="Hospital-Management-System-DSA-2025 preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025">Hospital-Management-System-DSA-2025</a> <a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
+<td valign="top" style="padding:14px"><code>C++</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/SnakeGameAssembly"><img src="https://opengraph.githubassets.com/1/mukhtar-x/SnakeGameAssembly" width="180" height="110" alt="SnakeGameAssembly preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/SnakeGameAssembly">SnakeGameAssembly</a> <a href="https://github.com/mukhtar-x/SnakeGameAssembly" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
+<td valign="top" style="padding:14px"><code>Assembly</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Railway-Management-OOP-GUI-2025"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Railway-Management-OOP-GUI-2025" width="180" height="110" alt="Railway-Management-OOP-GUI-2025 preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/Railway-Management-OOP-GUI-2025">Railway-Management-OOP-GUI-2025</a> <a href="https://github.com/mukhtar-x/Railway-Management-OOP-GUI-2025" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
+<td valign="top" style="padding:14px"><code>C++</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Railway-Management-System-CLI-2024"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Railway-Management-System-CLI-2024" width="180" height="110" alt="Railway-Management-System-CLI-2024 preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/Railway-Management-System-CLI-2024">Railway-Management-System-CLI-2024</a> <a href="https://github.com/mukhtar-x/Railway-Management-System-CLI-2024" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
+<td valign="top" style="padding:14px"><code>C</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+</tbody>
+</table>
+</div>
 <!-- SYSTEMS-END -->
 
 ---

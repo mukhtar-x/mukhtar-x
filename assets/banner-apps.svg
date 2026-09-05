@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" width="100%" height="100%">
   <defs>
     <style>
-      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes reveal { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes scan { 0% { transform: translateX(-90px); opacity: 0; } 20% { opacity: 0.7; } 65% { opacity: 0.25; } 100% { transform: translateX(1040px); opacity: 0; } }
       .bg { fill: #000000; stroke: #333333; stroke-width: 1; }
-      .title { font-family: 'Fira Code', -apple-system, monospace; font-size: 18px; font-weight: 700; fill: #ffffff; }
-      .sub { font-family: 'Fira Code', -apple-system, monospace; font-size: 11px; fill: #a0a0a0; letter-spacing: 2px; }
-      .cursor { animation: blink 1s infinite; fill: #ffffff; }
+      .title { font-family: 'Fira Code', -apple-system, monospace; font-size: 18px; font-weight: 700; fill: #ffffff; animation: reveal 0.8s ease-out both; }
+      .sub { font-family: 'Fira Code', -apple-system, monospace; font-size: 11px; fill: #a0a0a0; letter-spacing: 2px; animation: reveal 1s ease-out 0.2s both; }
+      .scan { fill: #ffffff; animation: scan 4s ease-in-out 0.4s infinite; }
       .hud { stroke: #ffffff; stroke-width: 1.5; fill: none; opacity: 0.6; }
       .icon { stroke: #ffffff; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
     </style>
@@ -23,6 +24,6 @@
   </g>
 
   <text x="70" y="38" class="title">Android &amp; iOS Mobile Applications</text>
-  <rect x="445" y="22" width="10" height="20" class="cursor" />
   <text x="70" y="58" class="sub">DYNAMIC CLIENT INTERFACES · ASYNC API INTEGRATIONS · CROSS-PLATFORM</text>
+  <rect x="70" y="67" width="120" height="2" rx="1" class="scan" />
 </svg>
