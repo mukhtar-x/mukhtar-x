@@ -120,6 +120,18 @@
 <th align="left" width="15%">STACK</th>
 </tr></thead>
 <tbody>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Automation-Outreach-Engine-N8N"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Automation-Outreach-Engine-N8N" width="180" height="110" alt="Automation-Outreach-Engine-N8N preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/Automation-Outreach-Engine-N8N">Automation-Outreach-Engine-N8N</a> <a href="https://github.com/mukhtar-x/Automation-Outreach-Engine-N8N" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Reduces repetitive work and improves operational consistency.</td>
+<td valign="top" style="padding:14px"><code>Code</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Socials-Monitoring-Script"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Socials-Monitoring-Script" width="180" height="110" alt="Socials-Monitoring-Script preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/Socials-Monitoring-Script">Socials-Monitoring-Script</a> <a href="https://github.com/mukhtar-x/Socials-Monitoring-Script" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Reduces repetitive work and improves operational consistency.</td>
+<td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -134,6 +146,36 @@
 <th align="left" width="15%">STACK</th>
 </tr></thead>
 <tbody>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Hospital-Management-System-Nextjs-2026" width="180" height="110" alt="Hospital-Management-System-Nextjs-2026 preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026">Hospital-Management-System-Nextjs-2026</a> <a href="https://github.com/mukhtar-x/Hospital-Management-System-Nextjs-2026" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
+<td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/DevCollab"><img src="https://opengraph.githubassets.com/1/mukhtar-x/DevCollab" width="180" height="110" alt="DevCollab preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/DevCollab">DevCollab</a> <a href="https://github.com/mukhtar-x/DevCollab" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
+<td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/SilkShine-Website"><img src="https://opengraph.githubassets.com/1/mukhtar-x/SilkShine-Website" width="180" height="110" alt="SilkShine-Website preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/SilkShine-Website">SilkShine-Website</a> <a href="https://github.com/mukhtar-x/SilkShine-Website" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
+<td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Node_Initializer"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Node_Initializer" width="180" height="110" alt="Node_Initializer preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/Node_Initializer">Node_Initializer</a> <a href="https://github.com/mukhtar-x/Node_Initializer" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
+<td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2026-03-10</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/SimpleWebApplicationFLASK"><img src="https://opengraph.githubassets.com/1/mukhtar-x/SimpleWebApplicationFLASK" width="180" height="110" alt="SimpleWebApplicationFLASK preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/SimpleWebApplicationFLASK">SimpleWebApplicationFLASK</a> <a href="https://github.com/mukhtar-x/SimpleWebApplicationFLASK" title="View project" aria-label="View project">&#8599;</a></h3><p>Simple auth using session, rending html with flask while providing Api Endpoints, it has RBAC user admin can post in community and assign roles to user for viewing, editing and all.</p></td>
+<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
+<td valign="top" style="padding:14px"><code>Python</code><br><br><kbd>2026-02-19</kbd></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -148,11 +190,18 @@
 <th align="left" width="15%">STACK</th>
 </tr></thead>
 <tbody>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/WeatherApp"><img src="https://opengraph.githubassets.com/1/mukhtar-x/WeatherApp" width="180" height="110" alt="WeatherApp preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/WeatherApp">WeatherApp</a> <a href="https://github.com/mukhtar-x/WeatherApp" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Makes useful software available through focused, accessible experiences.</td>
+<td valign="top" style="padding:14px"><code>JavaScript</code><br><br><kbd>2024-06-20</kbd></td>
+</tr>
 </tbody>
 </table>
 </div>
 <!-- MOBILE-END -->
 <!-- SCRAPING-START -->
+<p>No projects currently match the scraping category.</p>
 <!-- SCRAPING-END -->
 <!-- SYSTEMS-START -->
 <div style="overflow-x:auto;margin-top:0">
@@ -164,6 +213,30 @@
 <th align="left" width="15%">STACK</th>
 </tr></thead>
 <tbody>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Hospital-Management-System-DSA-2025" width="180" height="110" alt="Hospital-Management-System-DSA-2025 preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025">Hospital-Management-System-DSA-2025</a> <a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
+<td valign="top" style="padding:14px"><code>C++</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/SnakeGameAssembly"><img src="https://opengraph.githubassets.com/1/mukhtar-x/SnakeGameAssembly" width="180" height="110" alt="SnakeGameAssembly preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/SnakeGameAssembly">SnakeGameAssembly</a> <a href="https://github.com/mukhtar-x/SnakeGameAssembly" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
+<td valign="top" style="padding:14px"><code>Assembly</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Railway-Management-OOP-GUI-2025"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Railway-Management-OOP-GUI-2025" width="180" height="110" alt="Railway-Management-OOP-GUI-2025 preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/Railway-Management-OOP-GUI-2025">Railway-Management-OOP-GUI-2025</a> <a href="https://github.com/mukhtar-x/Railway-Management-OOP-GUI-2025" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
+<td valign="top" style="padding:14px"><code>C++</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
+<tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Railway-Management-System-CLI-2024"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Railway-Management-System-CLI-2024" width="180" height="110" alt="Railway-Management-System-CLI-2024 preview" /></a></td>
+<td valign="top" style="padding:14px"><h3><a href="https://github.com/mukhtar-x/Railway-Management-System-CLI-2024">Railway-Management-System-CLI-2024</a> <a href="https://github.com/mukhtar-x/Railway-Management-System-CLI-2024" title="View project" aria-label="View project">&#8599;</a></h3><p>No description provided.</p></td>
+<td valign="top" style="padding:14px">Builds understanding of performance, concurrency, architecture, and fundamentals.</td>
+<td valign="top" style="padding:14px"><code>C</code><br><br><kbd>2026-09-05</kbd></td>
+</tr>
 </tbody>
 </table>
 </div>
