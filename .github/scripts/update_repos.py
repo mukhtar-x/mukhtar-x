@@ -1,5 +1,6 @@
 import os
 import re
+from base64 import b64decode
 from html import escape
 import requests
 
@@ -74,6 +75,48 @@ def markdown_text(value):
 def html_text(value):
     return escape(" ".join(str(value or "").split()))
 
+def fetch_readme(repo, headers):
+    url = f"https://api.github.com/repos/{USERNAME}/{repo['name']}/readme"
+    try:
+        response = requests.get(url, headers=headers, timeout=20)
+        if response.ok:
+            return b64decode(response.json()["content"]).decode("utf-8", errors="replace")
+    except (KeyError, ValueError, requests.RequestException):
+        pass
+    return ""
+
+def summarize_readme(readme, fallback):
+    if not readme:
+        return fallback
+
+    summary_lines = []
+    for raw_line in readme.splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or line.startswith("```"):
+            continue
+        if re.match(r"^!\[[^]]*\]\([^)]*\)$", line):
+            continue
+
+        line = re.sub(r"!\[([^]]*)\]\([^)]*\)", r"\1", line)
+        line = re.sub(r"\[([^]]+)\]\([^)]*\)", r"\1", line)
+        line = re.sub(r"[*_`~]", "", line)
+        line = re.sub(r"^[-*+]\s+", "", line)
+        line = re.sub(r"^>\s*", "", line)
+        line = " ".join(line.split())
+
+        if len(line) < 20 or line.lower().startswith(("built with", "contributors", "license:")):
+            continue
+        summary_lines.append(line)
+        if len(summary_lines) == 4:
+            break
+
+    summary = " ".join(summary_lines)
+    if not summary:
+        return fallback
+    if len(summary) <= 320:
+        return summary
+    return summary[:320].rsplit(" ", 1)[0] + "..."
+
 def repository_matches(repo, keywords):
     normalized_keywords = [normalize_text(keyword) for keyword in keywords]
     normalized_name = normalize_text(repo.get("name"))
@@ -90,7 +133,7 @@ def repository_matches(repo, keywords):
     }
     return any(keyword in tokens for keyword in normalized_keywords if keyword)
 
-def generate_table(repos, category):
+def generate_table(repos, category, headers):
     if not repos:
         return ""
 
@@ -100,11 +143,10 @@ def generate_table(repos, category):
         '<div style="overflow-x:auto;margin-top:0">',
         '<table width="100%" style="border:1px solid #30363d;border-radius:14px;border-collapse:separate;border-spacing:0;overflow:hidden">',
         '<thead><tr>',
-        '<th align="left" width="24%">IMAGE</th>',
-        '<th align="left" width="25%">PROJECT</th>',
-        '<th align="left" width="36%">DESCRIPTION</th>',
-        '<th align="left" width="24%">IMPACT</th>',
-        '<th align="left" width="15%">STACK</th>',
+        '<th align="left" width="22%">IMAGE</th>',
+        '<th align="left" width="48%">PROJECT</th>',
+        '<th align="left" width="20%">IMPACT</th>',
+        '<th align="left" width="10%">STACK</th>',
         '</tr></thead>',
         '<tbody>'
     ]
@@ -112,8 +154,8 @@ def generate_table(repos, category):
     for repo in repos:
         name = html_text(repo["name"])
         url = escape(repo["html_url"], quote=True)
-        description = repo.get("description")
-        desc = html_text(description) if description else "No description provided."
+        description = html_text(repo.get("description")) if repo.get("description") else "No description provided."
+        readme = summarize_readme(fetch_readme(repo, headers), description)
         lang = html_text(repo.get("language") or "Code")
         updated = html_text(repo.get("updated_at", "")[:10] or "Unknown")
         image_url = f"https://opengraph.githubassets.com/1/{USERNAME}/{repo['name']}"
@@ -121,8 +163,7 @@ def generate_table(repos, category):
         rows.append(
             f'''<tr>
 <td valign="top" style="padding:14px"><a href="{url}"><img src="{image_url}" width="180" height="110" alt="{name} preview" /></a></td>
-<td valign="top" style="padding:14px"><h3 style="font-size:1em;margin:0"><a href="{url}">{name}</a> <a href="{url}" title="View project" aria-label="View project">&#8599;</a></h3></td>
-<td valign="top" style="padding:14px">{desc}</td>
+<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="{url}">{name}</a> <a href="{url}" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">{html_text(readme)}</p></td>
 <td valign="top" style="padding:14px">{importance}</td>
 <td valign="top" style="padding:14px"><code>{lang}</code><br><br><kbd>{updated}</kbd></td>
 </tr>'''
@@ -156,7 +197,7 @@ def update_readme():
         pattern = rf"(<!-- {cat_name}-START -->)(.*?)(<!-- {cat_name}-END -->)"
 
         if re.search(pattern, content, flags=re.DOTALL):
-            section_content = generate_table(matched_repos, cat_name)
+            section_content = generate_table(matched_repos, cat_name, headers)
             if not section_content:
                 section_content = f"<p>No projects currently match the {cat_name.lower()} category.</p>"
             content = re.sub(
