@@ -152,6 +152,12 @@
 </tr></thead>
 <tbody>
 <tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/DevCollab"><img src="https://opengraph.githubassets.com/1/mukhtar-x/DevCollab" width="180" height="110" alt="DevCollab preview" /></a></td>
+<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/DevCollab">DevCollab</a> <a href="https://github.com/mukhtar-x/DevCollab" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">DevCollab is an enterprise-grade, full-stack collaborative project management platform engineered specifically for development teams. The platform relies on a decoupled, asynchronous state architecture on the frontend and a strict layered service repository design on the backend. Personal Workspaces: Endpoints...</p></td>
+<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
+<td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-09</kbd></td>
+</tr>
+<tr>
 <td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Flask-Project-Trial"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Flask-Project-Trial" width="180" height="110" alt="Flask-Project-Trial preview" /></a></td>
 <td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Flask-Project-Trial">Flask-Project-Trial</a> <a href="https://github.com/mukhtar-x/Flask-Project-Trial" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">﻿# SimpleWebApplicationFLASK</p></td>
 <td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
@@ -168,12 +174,6 @@
 <td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025">Hospital-Management-System-DSA-2025</a> <a href="https://github.com/mukhtar-x/Hospital-Management-System-DSA-2025" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">Semester 4 Data Structures and Algorithms Project · C++ · 2025 A console-based hospital management system that turns real hospital workflows into practical data-structure operations. Algorithms and Complexity This repository contains my Semester 4 DSA project from 2025: a Hospital Management System written in C++.</p></td>
 <td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
 <td valign="top" style="padding:14px"><code>C++</code><br><br><kbd>2026-09-05</kbd></td>
-</tr>
-<tr>
-<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/DevCollab"><img src="https://opengraph.githubassets.com/1/mukhtar-x/DevCollab" width="180" height="110" alt="DevCollab preview" /></a></td>
-<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/DevCollab">DevCollab</a> <a href="https://github.com/mukhtar-x/DevCollab" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">DevCollab is an enterprise-grade, full-stack collaborative project management platform engineered specifically for development teams. The platform relies on a decoupled, asynchronous state architecture on the frontend and a strict layered service repository design on the backend. Personal Workspaces: Endpoints...</p></td>
-<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
-<td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-05</kbd></td>
 </tr>
 <tr>
 <td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/SilkShine-Website"><img src="https://opengraph.githubassets.com/1/mukhtar-x/SilkShine-Website" width="180" height="110" alt="SilkShine-Website preview" /></a></td>
