@@ -130,7 +130,7 @@
 <td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Cafe-POS-Electron"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Cafe-POS-Electron" width="180" height="110" alt="Cafe-POS-Electron preview" /></a></td>
 <td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/Cafe-POS-Electron">Cafe-POS-Electron</a> <a href="https://github.com/mukhtar-x/Cafe-POS-Electron" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">CAFE POS is a local-first desktop point-of-sale application for a single café terminal. It is built with Electron, React, TypeScript, Vite, and SQLite (better-sqlite3). The bundled café branding is Chai Fusion Café; the café name and receipt details can be changed in Settings. The renderer never opens SQLite directly....</p></td>
 <td valign="top" style="padding:14px">Reduces repetitive work and improves operational consistency.</td>
-<td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-29</kbd></td>
+<td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-09-30</kbd></td>
 </tr>
 <tr>
 <td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/Automation-Outreach-Engine-N8N"><img src="https://opengraph.githubassets.com/1/mukhtar-x/Automation-Outreach-Engine-N8N" width="180" height="110" alt="Automation-Outreach-Engine-N8N preview" /></a></td>
