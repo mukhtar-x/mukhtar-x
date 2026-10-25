@@ -158,6 +158,12 @@
 </tr></thead>
 <tbody>
 <tr>
+<td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/GrandDebatePortal"><img src="https://opengraph.githubassets.com/1/mukhtar-x/GrandDebatePortal" width="180" height="110" alt="GrandDebatePortal preview" /></a></td>
+<td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/GrandDebatePortal">GrandDebatePortal</a> <a href="https://github.com/mukhtar-x/GrandDebatePortal" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">Website and registration portal for The Grand Debate &#x27;26, organised by TLC (The Literary Club), FAST-NUCES Karachi. | Detail | Information | | Dates | 18–20 November 2026 | | Daily timings | 8:00 AM–4:00 PM |</p></td>
+<td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
+<td valign="top" style="padding:14px"><code>TypeScript</code><br><br><kbd>2026-10-24</kbd></td>
+</tr>
+<tr>
 <td valign="top" style="padding:14px"><a href="https://github.com/mukhtar-x/DevCollab"><img src="https://opengraph.githubassets.com/1/mukhtar-x/DevCollab" width="180" height="110" alt="DevCollab preview" /></a></td>
 <td valign="top" style="padding:14px"><p style="margin:0 0 8px;font-size:0.95em"><strong><a href="https://github.com/mukhtar-x/DevCollab">DevCollab</a> <a href="https://github.com/mukhtar-x/DevCollab" title="View project" aria-label="View project">&#8599;</a></strong></p><p style="margin:0">DevCollab is an enterprise-grade, full-stack collaborative project management platform engineered specifically for development teams. The platform relies on a decoupled, asynchronous state architecture on the frontend and a strict layered service repository design on the backend. Personal Workspaces: Endpoints...</p></td>
 <td valign="top" style="padding:14px">Connects user experience, business logic, and data into usable systems.</td>
